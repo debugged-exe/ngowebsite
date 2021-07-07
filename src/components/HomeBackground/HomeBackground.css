@@ -1,0 +1,78 @@
+
+.quote
+{
+	color: white;
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	right: 70%;
+	background: none;
+	width: 40%;
+}
+
+p{
+	position: relative;
+	top: 45%;
+	vertical-align: middle;
+	text-align: center;
+	max-width: fit-content;
+	left: 40%;
+}
+
+.link{
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+max-width: fit-content;;
+margin: auto;
+font-size: 1.5rem;
+}
+
+.sty
+{
+	align-self: center;
+	display: 'flex';
+	 flex-direction: column;
+	 justify-content: center;
+	  align-items: center
+}
+
+.sty:hover{
+	color: #e88f0a;
+	cursor: pointer;
+}
+
+.donate1
+{
+	background: none;
+	transition: 0.5s;
+	align-self: center;
+	color:white;
+	border:2px solid;
+	position: relative;
+	top: 50%;
+}
+.donate1:hover
+{
+	background-color: #e88f0a;
+	color: black;
+	border:2px solid black
+}
+
+.font-size{
+  font-size: 1.5rem;
+  width: auto;
+  color: white;
+  padding: 50px 0 50px;
+}
+
+
+.slide{
+	background: rgba(0, 0 , 0 , 0.4);
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-blend-mode: darken;
+  }
