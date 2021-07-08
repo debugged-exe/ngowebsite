@@ -1,0 +1,148 @@
+.border-box {
+    box-sizing: border-box;
+}
+
+.back{
+    background-color: black;
+}
+
+.br-100 {
+    border-radius: 100%;
+}
+
+.db {
+    display: block;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.h2 {
+    height: 2rem;
+}
+
+.link1 {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link1:link, .link1:visited {
+    transition: color .15s ease-in;
+}
+
+.link1:hover {
+    transition: color .15s ease-in;
+}
+
+.link1:active {
+    transition: color .15s ease-in;
+}
+
+.link1:focus {
+    transition: color .15s ease-in;
+    
+}
+
+.w2 {
+    width: 2rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.dark-gray {
+    color: white;
+}
+
+.mid-gray {
+    color: white;
+}
+
+.dback{
+    background-color: #e88f0a;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.mr3 {
+    margin-right: 1rem;
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+
+.dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+
+@media screen and (min-width: 60em) {
+    .dt-l {
+        display: table;
+    }
+
+    .dtc-l {
+        display: table-cell;
+    }
+
+    .w-25-l {
+        width: 25%;
+    }
+
+    .w-75-l {
+        width: 75%;
+    }
+
+    .ph5-l {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .mr4-l {
+        margin-right: 2rem;
+    }
+
+    .mb0-l {
+        margin-bottom: 0;
+    }
+
+    .tl-l {
+        text-align: left;
+    }
+
+    .tr-l {
+        text-align: right;
+    }
+
+    .f5-l {
+        font-size: 1rem;
+    }
+}

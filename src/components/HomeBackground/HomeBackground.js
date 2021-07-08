@@ -10,11 +10,8 @@ class HomeBackground extends Component{
 
     render(){
         return(
-            <section>
         <Carousel itemsToShow={1}>
-
-                 <div className='slide font-size' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover'}}>
-                  
+                 <div className='slide font-size ' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover'}}>     
                   <p className="sty">THE WAR AGAINST <b>HUNGER</b><br/>IS THE WAR OF <b>LIBERATION</b></p>
                   <Router>
                     <Link to = "/" style={{textDecoration:'none'}}> 
@@ -22,7 +19,6 @@ class HomeBackground extends Component{
 											</Link>
                   </Router>
                   </div>
-                
 
                   <div className='slide font-size' style={{backgroundImage:'url('+poor2+')',backgroundSize:'cover'}}>
                   <p className="sty">THE WAR AGAINST <b>HUNGER</b><br/>IS THE WAR OF <b>LIBERATION</b></p>
@@ -43,7 +39,7 @@ class HomeBackground extends Component{
                   </div>
 
         </Carousel>
-        </section>
+       
         )
     }
 }
