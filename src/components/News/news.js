@@ -6,7 +6,7 @@ function news(){
     return(
         <div>
         <div className='page1'>
-            <h1 style={{marginLeft:'10%',textAlign:'left',paddingTop:'8%',display:'inline-block',position:'relative'}}><b>Help us make a better World .</b></h1>
+            <h1>Help us make a better World .</h1>
             <button className='new'>Make Donation</button>
         </div>
         <div className='page2'>

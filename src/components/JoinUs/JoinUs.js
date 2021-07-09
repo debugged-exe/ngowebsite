@@ -7,20 +7,20 @@ function Contact() {
         <div className='margin'></div>
         <section className='parallax' >
             <div className='parallax-inner flex flex-column justify-center items-center'>
-                <h1 data-aos={"fade-up"} data-aos-duration={'2000'}>Contact Us</h1>
+                <h1 >Contact Us</h1>
                 <div className='mv2'>
-                    <p data-aos={"fade-up"} data-aos-duration={'2000'}>Name</p>
-                    <input className='bg-none br2' placeholder='Enter Name' data-aos={"fade-up"} data-aos-duration={'2000'}/>
+                    <p style={{left:'0'}}>Name</p> <br/><br/>
+                    <input className='bg-none br2' placeholder='Enter Name'/>
                 </div >
                 <div className='mv2'>
-                    <p data-aos={"fade-up"} data-aos-duration={'2000'}>Email</p>
-                    <input className='bg-none br2' placeholder='Enter Email' data-aos={"fade-up"} data-aos-duration={'2000'}/>
+                    <p style={{left:'0'}}>Email</p><br/><br/>
+                    <input className='bg-none br2' placeholder='Enter Email'/>
                 </div>
                 <div className='mv2'>
-                    <p data-aos={"fade-up"} data-aos-duration={'2000'}>Message</p>
-                    <textarea className='bg-none br2 pr4' placeholder='Enter Email' data-aos={"fade-up"} data-aos-duration={'2000'}/>
+                    <p style={{left:'0'}}>Message</p><br/><br/>
+                    <input className='bg-none br2' placeholder='Enter Message'/>
                 </div>
-                <a data-aos={"fade-up"} data-aos-duration={'2000'} className="mt4 br2 grow f4 link ph3 pv2 mb2 dib white bg-dark-green" href="#0">Send Query</a>
+                <a  className="mt4 br2 grow f4 link ph3 pv2 mb2 dib white bg-dark-green" href="#0">Send Query</a>
             </div>
         </section>
         <div className='margin'></div>
