@@ -1,4 +1,6 @@
-
+.home-div{
+	overflow: hidden;
+}
 
 .quote
 {
@@ -11,14 +13,7 @@
 	width: 40%;
 }
 
-p{
-	position: relative;
-	top: 45%;
-	vertical-align: middle;
-	text-align: center;
-	max-width: fit-content;
-	left: 40%;
-}
+
 
 .link{
 display: flex;
@@ -36,7 +31,13 @@ font-size: 1.5rem;
 	display: 'flex';
 	 flex-direction: column;
 	 justify-content: center;
-	  align-items: center
+	  align-items: center;
+		position: relative;
+		top: 45%;
+		vertical-align: middle;
+		text-align: center;
+		max-width: fit-content;
+		left: 40%;
 }
 
 .sty:hover{

@@ -1,39 +1,19 @@
 import React from 'react'
 import './AboutUs.css'
-import RoseImg from './RoseImg.jpeg'
+import image1 from './img.png'
 
 function AboutUs(){
     return(
-            <div className="container">
-                <div className="item">
-                    <img src={RoseImg} alt="aboutimage" className="image"/>
-                </div>
-                <div className="item" style={{marginTop:'10%'}}>
-                    <h1><b>ABOUT US</b></h1>
-                    <p style={{position:'relative',paddingRight:'10%',paddingLeft:'10%',right:'-10px',left:'-10px',top:'-10px'}}>
-                        Rohit nursery has been delivering premium quality plants since 1990. 
-                        We manufacture flower plants, fruit plants and decorative garden plants from better mother plants.
-                        We believe to provide you plants matching to your personal and climatic needs.
-                        Rohit nursery has been delivering premium quality plants since 1990. 
-                        We manufacture flower plants, fruit plants and decorative garden plants from better mother plants.
-                        We believe to provide you plants matching to your personal and climatic needs.
-                        Rohit nursery has been delivering premium quality plants since 1990. 
-                        We manufacture flower plants, fruit plants and decorative garden plants from better mother plants.
-                        We believe to provide you plants matching to your personal and climatic needs.
-                        Rohit nursery has been delivering premium quality plants since 1990. 
-                        We manufacture flower plants, fruit plants and decorative garden plants from better mother plants.
-                        We believe to provide you plants matching to your personal and climatic needs.
-                        Rohit nursery has been delivering premium quality plants since 1990. 
-                        We manufacture flower plants, fruit plants and decorative garden plants from better mother plants.
-                        We believe to provide you plants matching to your personal and climatic needs.
-                        Rohit nursery has been delivering premium quality plants since 1990. 
-                        We manufacture flower plants, fruit plants and decorative garden plants from better mother plants.
-                        We believe to provide you plants matching to your personal and climatic needs.
-                    </p>
-                </div>
+          <div className="container-div">
+            <div>
+              <img src={image1} alt="image"/>
             </div>
-        
-    
+            <div style={{textAlign:"left"}}>
+               <p>Rohit rose nursery established in the year 1990 located on bhigwan- walchandnagar road in kalas,Tal-Indapur Dist-Pune(Maharashtra).3 km from Pune- Solapur highway. We produce and supply all types of flower plants,fruit plants, decorative plants and shade plants. We supply plants and also give you information on how to go about taking care and growing them.
+                We also specialise in the quality plant of rose, pomegranate,fig and grapes root variety.
+               </p>
+            </div>
+          </div>
     )
 }
 
