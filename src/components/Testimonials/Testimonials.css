@@ -12,6 +12,10 @@ h1{
     background-color:#e88f0a;
     opacity : 0.6;
     right: 0;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 12px;
 }
 
 div.contain{
@@ -23,5 +27,5 @@ div.category{
    display: inline-block;
    width: 40vh;
    height: 30vh;
-   margin: 5px;
+   margin: 10px;
 }
