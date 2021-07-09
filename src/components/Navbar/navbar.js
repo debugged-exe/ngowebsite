@@ -13,6 +13,7 @@ function navbar({setProduct}) {
             </Link>
             <div className="db dtc-l v-mid w-100 w-75-l tr-l">
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/HomeBackground'>HOME</Link>
+                <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/AboutUs'>ABOUT US</Link>
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/OurGoals'>OUR GOALS</Link>
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/Testimonials'>TESTIMONIALS</Link>
                 <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="/News">NEWS</Link>

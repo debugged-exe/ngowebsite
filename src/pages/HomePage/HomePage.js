@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeBackground from '../../components/HomeBackground/HomeBackground'
-import Donate from '../../components/Donate/donate'
+import AboutUs from '../../components/AboutUs/AboutUs'
 import JoinUs from '../../components/JoinUs/JoinUs'
 import News from '../../components/News/news'
 import OurGoals from '../../components/OurGoals/OurGoals'
@@ -10,11 +10,11 @@ const HomePage = () =>{
     return(
         <>
         <HomeBackground/>
+        <AboutUs/>
         <OurGoals/>
         <Testimonials/>
-        <News/>
         <JoinUs/>
-        <Donate/>
+        <News/>
         </>
     )
 }

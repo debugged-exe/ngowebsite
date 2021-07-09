@@ -10,7 +10,7 @@ class HomeBackground extends Component{
 
     render(){
         return(
-        <Carousel itemsToShow={1}>
+        <Carousel itemsToShow={1} style={{position:'relative',right:'-10px',left:'-10px',width:'110%'}} showArrows={false} enableAutoPlay={true} interval={3000}>
                  <div className='slide font-size ' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover'}}>     
                   <p className="sty">THE WAR AGAINST <b>HUNGER</b><br/>IS THE WAR OF <b>LIBERATION</b></p>
                   <Router>

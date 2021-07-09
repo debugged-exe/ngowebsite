@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.inner{
+    position:absolute;
+    text-align:center;
+    bottom:0;
+    left:0;
+    height: 20px;
+    background-color:#e88f0a;
+    opacity : 0.6;
+    right: 0;
+}
+
+div.contain{
+    text-align: center;
+}
+
+div.category{
+   border: 1px solid rgba(0,0,0,0.8);
+   display: inline-block;
+   width: 40vh;
+   height: 30vh;
+   margin: 5px;
+}

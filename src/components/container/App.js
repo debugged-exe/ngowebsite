@@ -2,6 +2,7 @@ import './App.css';
 import HomeBackground from '../HomeBackground/HomeBackground';
 import HomePage from '../../pages/HomePage/HomePage';
 import React from "react";
+import AboutUs from '../AboutUs/AboutUs';
 import Navbar from '../Navbar/navbar';
 import Donate from '../Donate/donate'
 import JoinUs from '../JoinUs/JoinUs'
@@ -25,12 +26,12 @@ class App extends React.Component {
     render() {
         return (
             <div>
-               
                 <BrowserRouter>
                     <Navbar setProduct={this.setProduct}/>
                     <Switch>
                         <Route exact path='/' component={HomePage}/>
                         <Route exact path='/HomeBackground' component={() => <HomeBackground/>} />
+                        <Route exact path='/AboutUs' component={() => <AboutUs/>} />
                         <Route exact path='/OurGoals' component={() => <OurGoals/>} />
                         <Route exact path='/Testimonials' component={() => <Testimonials/>} />
                         <Route exact path='/News' component={() => <News/>} />

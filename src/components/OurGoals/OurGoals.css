@@ -1,0 +1,30 @@
+.fixed-bg {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #e88f0a;
+    
+  }
+
+h1{
+  vertical-align: middle;
+}
+
+  .para{
+    position: relative;
+    height: 150px;
+  }
+
+  .para p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+
+  }
+
+  
