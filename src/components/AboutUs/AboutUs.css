@@ -9,3 +9,10 @@
     margin:3%;
     padding:3%;
 }
+
+@media screen and (max-width:768px) {
+  .container-div{
+    display:grid;
+    grid-template-columns:100%;
+  }
+}
