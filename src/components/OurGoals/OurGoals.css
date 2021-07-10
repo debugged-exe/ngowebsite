@@ -6,7 +6,7 @@
     background-size: cover;
     text-align: center;
     color: #e88f0a;
-    
+    background-size: 100% 100%;
   }
 
 h1{
@@ -27,4 +27,33 @@ h1{
 
   }
 
-  
+
+@media screen and (max-width:320px) {
+  .fixed-bg h1{
+    font-size: 5vw;
+  }
+  .para{
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+  .fixed-bg{
+    background-repeat: no-repeat;
+  }
+}
+
+
+@media screen and (max-width:425px) {
+  .fixed-bg h1{
+    font-size: 5vw;
+  }
+  .para{
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .para p{
+    font-size: 1.2rem;
+  }
+}

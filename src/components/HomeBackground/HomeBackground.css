@@ -2,18 +2,6 @@
 	overflow: hidden;
 }
 
-.quote
-{
-	color: white;
-	position: absolute;
-	top: 65%;
-	left: 30%;
-	right: 70%;
-	background: none;
-	width: 40%;
-}
-
-
 
 .link{
 display: flex;
@@ -27,9 +15,7 @@ font-size: 1.5rem;
 
 .sty
 {
-	align-self: center;
-	display: 'flex';
-	 flex-direction: column;
+	
 	 justify-content: center;
 	  align-items: center;
 		position: relative;
@@ -79,3 +65,29 @@ font-size: 1.5rem;
 	background-blend-mode: darken;
 	background-position: center top;
   }
+
+  @media screen and (max-width:425px) {
+		.sty{
+           font-size: 1rem;
+		   
+		   justify-content: center;
+		   position: relative;
+		   left: 20%;
+		}
+		.donate1{
+			font-size: 1rem;
+		}
+  }
+  @media screen and (min-width:425px) and (max-width:768px) {
+	  .sty{
+		  left: 31%;
+		  font-size: 1.2rem;
+		  float: initial;
+	  }
+	  .donate1{
+		font-size: 1.2rem;
+	}
+  }
+
+
+

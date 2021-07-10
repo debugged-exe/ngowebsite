@@ -29,3 +29,10 @@ div.category{
    height: 30vh;
    margin: 10px;
 }
+
+@media screen and (max-width:425px){
+    .test h1{
+        font-size: 2rem;
+    }
+    
+}

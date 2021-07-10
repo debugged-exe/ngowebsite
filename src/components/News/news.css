@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
-   align-items: center;
+    align-items: center;
 }
 
 .new{
@@ -46,7 +46,25 @@
   margin:2%;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px){
+  .page1 h1{
+    font-size: 6vw;
+  }
+
+.new{
+  font-size: 15px;
+}
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+  .page1 h1{
+    font-size: 7vw;
+  }
+
+.new{
+  font-size: 20px;
+}
+
   .page2{
     display:grid;
     grid-template-columns:100%;
