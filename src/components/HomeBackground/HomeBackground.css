@@ -4,26 +4,20 @@
 
 
 .link{
-display: flex;
-justify-content: center;
-align-items: center;
+
 height: auto;
 max-width: fit-content;;
 margin: auto;
-font-size: 1.5rem;
+font-size: 2rem;
 }
 
 .sty
 {
 	
-	 justify-content: center;
-	  align-items: center;
-		position: relative;
-		top: 45%;
-		vertical-align: middle;
-		text-align: center;
-		max-width: fit-content;
-		left: 40%;
+    position: relative;
+	top: 45%;
+	text-align: center;
+		
 }
 
 .sty:hover{
@@ -49,7 +43,7 @@ font-size: 1.5rem;
 }
 
 .font-size{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   width: auto;
   color: white;
   padding: 50px 0 50px;
@@ -64,15 +58,14 @@ font-size: 1.5rem;
 	padding: 0;
 	background-blend-mode: darken;
 	background-position: center top;
+	
   }
 
   @media screen and (max-width:425px) {
 		.sty{
            font-size: 1rem;
 		   
-		   justify-content: center;
-		   position: relative;
-		   left: 20%;
+		   
 		}
 		.donate1{
 			font-size: 1rem;
@@ -80,7 +73,7 @@ font-size: 1.5rem;
   }
   @media screen and (min-width:425px) and (max-width:768px) {
 	  .sty{
-		  left: 31%;
+		 
 		  font-size: 1.2rem;
 		  float: initial;
 	  }
