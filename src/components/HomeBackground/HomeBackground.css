@@ -2,38 +2,15 @@
 	overflow: hidden;
 }
 
-
-.link{
-
-height: auto;
-max-width: fit-content;;
-margin: auto;
-font-size: 2rem;
-}
-
-.sty
-{
-	
-    position: relative;
-	top: 45%;
-	text-align: center;
-		
-}
-
-.sty:hover{
-	color: #e88f0a;
-	cursor: pointer;
-}
-
 .donate1
 {
 	background: none;
 	transition: 0.5s;
-	align-self: center;
+	/* align-self: center; */
 	color:white;
 	border:2px solid;
-	position: relative;
-	top: 50%;
+	/* position: relative; */
+	/* top: 50%; */
 }
 .donate1:hover
 {
@@ -42,11 +19,15 @@ font-size: 2rem;
 	border:2px solid black
 }
 
-.font-size{
+.bg-image{
   font-size: 2.5rem;
-  width: auto;
+  /* width: auto; */
   color: white;
   padding: 50px 0 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
 }
 
 
