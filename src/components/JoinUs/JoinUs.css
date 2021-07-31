@@ -1,6 +1,6 @@
 
 .parallax{
-    background: rgba(0, 0, 0, 0.637) url('./form.png') no-repeat fixed center/cover;
+    background: rgba(0, 0, 0, 0.637) url('./poor1.jpeg') no-repeat fixed center/cover;
     background-blend-mode: darken;
 }
 
@@ -10,10 +10,6 @@
     padding-bottom:20px ;
 }
 
-.parallax-inner p{
-    font-size: 2rem;
-    margin: 2px;
-}
 
 .bg-none{
     background: rgba(255, 255, 255, 0.4);
@@ -22,30 +18,16 @@
     
 }
 
+
 .bg-none::placeholder{
-    color: rgb(37, 37, 37);
-    font-size: 1.4rem;
+    color: orange;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width:375px) {
-    #contact{
-     
-      flex-direction: column;
-    }
-    .inner1{
-        font-size: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .parallax-inner p{
-        font-size: 1.5rem;
-        margin-bottom: -2rem;
-        margin-left: 1rem;
-    }
+    
     .parallax-inner h1{
         font-size: 2rem;
     }
-    .but1{
-        font-size:1rem
-    }
+    
   }
