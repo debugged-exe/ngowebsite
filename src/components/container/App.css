@@ -1,4 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+
 .App {
   text-align: center;
   overflow: hidden;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+.yelloe{
+  color: #F1C34F
+}
+
+.bg-yelloe{
+  background-color: #F1C34F;
 }

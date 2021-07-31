@@ -16,3 +16,32 @@
     grid-template-columns:100%;
   }
 }
+
+.line{
+  height: 4px;
+  width: 7%;
+  margin: 0 auto ;
+  margin-top: -10px;
+}
+
+.about-line{
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 200;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 60% 30%;
+}
+
+.grid-container div h5{
+  font-weight: normal;
+  line-height: 1.7rem;
+}
+
+.button-text{
+  color: white;
+}
