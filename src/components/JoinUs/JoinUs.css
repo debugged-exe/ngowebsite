@@ -15,12 +15,12 @@
     background: rgba(255, 255, 255, 0.4);
     outline: none;
     border: 0;
-    
+    padding-left: 3rem;
 }
 
 
 .bg-none::placeholder{
-    color: orange;
+    color: #F1C34F;
     font-size: 1.2rem;
 }
 
