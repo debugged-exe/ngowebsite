@@ -11,6 +11,8 @@ import News from '../News/news'
 import OurGoals from '../OurGoals/OurGoals'
 import Testimonials from '../Testimonials/testimonials'
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { BsArrowUp } from 'react-icons/bs'
+
 
 class App extends React.Component {
     constructor() {
@@ -39,6 +41,7 @@ class App extends React.Component {
                         <Route exact path='/JoinUs' component={() => <JoinUs />} />
                         <Route exact path='/Donate' component={() => <Donate />} />
                     </Switch>
+                    <a href="#" className="back-to-top flex items-center justify-center white"><BsArrowUp /></a>
                 </BrowserRouter>
             </div>
         );
