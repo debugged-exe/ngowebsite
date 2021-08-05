@@ -4,7 +4,7 @@ import poor1 from './poor1.jpeg'
 
 function OurGoals() {
     return (
-        <div>
+        <div className="mb6">
             <div className="tc goals">
                 <h2 className="f2 pt4">OUR GOALS</h2>
                 <div className="line tc bg-yelloe"></div>
