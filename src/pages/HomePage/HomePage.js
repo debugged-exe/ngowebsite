@@ -6,11 +6,13 @@ import News from '../../components/News/news'
 import OurGoals from '../../components/OurGoals/OurGoals'
 import Events from '../../components/Events/Events'
 import Testimonials from '../../components/Testimonials/Testimonials'
+import { Navbar } from 'react-bootstrap'
 
 const HomePage = () =>{
     return(
-        <>
+        <>    
         <HomeBackground/>
+        <Navbar />
         <AboutUs/>
         <OurGoals/>
         <Testimonials/>

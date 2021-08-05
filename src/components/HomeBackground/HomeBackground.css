@@ -32,11 +32,12 @@
 
 
 .slide{
-	background: rgba(0, 0 , 0 , 0.4);
+	background: rgba(0, 0 , 0 , 0.6);
 	height: 100vh;
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	filter: grayscale();
 	background-blend-mode: darken;
 	background-position: center top;
 	

@@ -2,9 +2,9 @@ import React, { Component } from "react"
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 import Carousel from 'react-elastic-carousel'
 import './HomeBackground.css'
-import poor1 from './poor1.jpeg'
-import poor2 from './poor2.jpg'
-import poor3 from './poor3.jpeg'
+import homebg1 from './homebg1.jpg'
+import homebg2 from './homebg2.jpg'
+import homebg3 from './homebg3.jpg'
 
 class HomeBackground extends Component {
 
@@ -13,13 +13,66 @@ class HomeBackground extends Component {
       <div className="home-div">
         <Carousel itemsToShow={1} style={{ position: 'relative', right: '-10px', left: '-10px', width: '102%' }} showArrows={false} enableAutoPlay={true} interval={3000}>
 
-          <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', width: '100vw' }}>
+          <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + homebg1 + ')', backgroundSize: 'cover', width: '100vw' }}>
             <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
             <Link to="/" style={{ textDecoration: 'none' }}>
               <a className="f6 link dim ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
             </Link>
           </div>
+
+          <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + homebg2 + ')', backgroundSize: 'cover', width: '100vw' }}>
+            <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+              <a className="f6 link dim ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
+            </Link>
+          </div>
+
+          <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + homebg3 + ')', backgroundSize: 'cover', width: '100vw' }}>
+            <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+              <a className="f6 link dim ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
+            </Link>
+          </div>
+
+
         </Carousel>
+
+        {/* <Carousel itemsToShow={1} interval={3000} enableAutoPlay='true' >
+
+          <div className='flex justify-center tc items-center white' style={{ width: '110%', height: '400px' }}  >
+            <div className="pa6 f3" style={{ width: '70%' }}>
+              <h3 >
+                <i> We have been working with Charity for over ten years now and our relationship has moved from that of charity client event organisers to friends. Charity is a great team committed to providing innovative, fun and challenging events.
+                </i>
+              </h3>
+              <br /><br />
+              <div className='f5 '>- Kate Doe </div>
+            </div>
+          </div>
+
+          <div className='flex justify-center tc items-center white' style={{ width: '110%', height: '400px' }}  >
+            <div className="pa6 f3" style={{ width: '70%' }}>
+              <h3 >
+                <i> We have been working with Charity for over ten years now and our relationship has moved from that of charity client event organisers to friends. Charity is a great team committed to providing innovative, fun and challenging events.
+                </i>
+              </h3>
+              <br /><br />
+              <div className='f5 '>- Kate Doe </div>
+            </div>
+          </div>
+
+          <div className='flex justify-center tc items-center white' style={{ width: '110%', height: '400px' }}  >
+            <div className="pa6 f3" style={{ width: '70%' }}>
+              <h3 >
+                <i> We have been working with Charity for over ten years now and our relationship has moved from that of charity client event organisers to friends. Charity is a great team committed to providing innovative, fun and challenging events.
+                </i>
+              </h3>
+              <br /><br />
+              <div className='f5 '>- Kate Doe </div>
+            </div>
+          </div>
+
+        </Carousel> */}
       </div>
     )
   }
