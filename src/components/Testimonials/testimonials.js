@@ -1,48 +1,53 @@
 import React from 'react'
 import './Testimonials.css'
-import poor1 from './poor1.jpeg' 
+import poor1 from './poor1.jpeg'
 
-function testimonials(){
-    return(
+function testimonials() {
+    return (
         <div className='test'>
-            <h1 style={{position:'relative',top:'25%',paddingTop:'10%',paddingBottom:'10px'}}> <b>Latest Events</b></h1>
-            <div className='contain'>
-                <div className='category' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover',position:'relative'}}>
-                <div className='inner'>
-                     Hello World
-                    <hr style={{bottom:'0',width:'80%'}}/>
-                </div>
+            <div className="tc">
+                <h2 className="f2 pt4">LATEST EVENTS</h2>
+                <div className="line tc bg-yelloe"></div>
+                <h3 className="tc mt2 about-line">Want to catch up on whats been happening lately?
+                    Take a look at the latest news of Lambda.</h3>
+            </div>
+            <div className='test-container mt4'>
+                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    <div className='inner'>
+                        Hello World
+                        <hr style={{ bottom: '0', width: '80%' }} />
+                    </div>
                     <div className='hidden'> New component</div>
                 </div>
-                <div className='category' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover',position:'relative'}}>
+                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>Hello World
-                    <hr style={{bottom:'0',width:'80%'}}/>
+                        <hr style={{ bottom: '0', width: '80%' }} />
                     </div>
                     <div className='hidden'>New component</div>
                 </div>
-                <div className='category' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover',position:'relative'}}>
+                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>Hello World
-                    <hr style={{bottom:'0',width:'80%'}}/>
+                        <hr style={{ bottom: '0', width: '80%' }} />
                     </div>
                     <div className='hidden'>New component</div>
                 </div>
             </div>
-            <div className='contain' style={{paddingBottom:'10%'}}>
-                <div className='category' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover',position:'relative'}}>
+            <div className='test-container' style={{ paddingBottom: '10%' }}>
+                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>Hello World
-                    <hr style={{bottom:'0',width:'80%'}}/>
+                        <hr style={{ bottom: '0', width: '80%' }} />
                     </div>
                     <div className='hidden'>New component</div>
                 </div>
-                <div className='category' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover',position:'relative'}}>
+                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>Hello World
-                    <hr style={{bottom:'0',width:'80%'}}/>
+                        <hr style={{ bottom: '0', width: '80%' }} />
                     </div>
                     <div className='hidden'>New component</div>
                 </div>
-                <div className='category' style={{backgroundImage:'url('+poor1+')',backgroundSize:'cover',position:'relative'}}>
+                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>Hello World
-                    <hr style={{bottom:'0',width:'80%'}}/>
+                        <hr style={{ bottom: '0', width: '80%' }} />
                     </div>
                     <div className='hidden'>New component</div>
                 </div>

@@ -11,7 +11,7 @@ const news = () => {
     <div>
       <div className="bg-yelloe white h4 tc flex justify-center items-center">
         <h3 className="pa4">HELP US MAKE A BETTER WORLD FOR OUR CHILDREN.</h3>
-        <a className="f4 link grow ph3 br2 pv2 mb2 ml4 dib bg-white yelloe" href="#0"><i><b>JOIN OUR CAUSE</b></i></a>
+        <a className="f4 link grow ph3 br2 pv2 mb2 ml4 dib bg-white yelloe" href="#0"><i><b>MAKE A DONATION</b></i></a>
       </div>
 
       <div className="flex justify-center tl bg-dark-gray white  ph7 pv4 lh-copy">

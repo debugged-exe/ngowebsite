@@ -57,3 +57,38 @@ h1{
     font-size: 1.2rem;
   }
 }
+
+.goals .about-line{
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 200;
+}
+
+.bar-inside{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress{
+  width: 100%;
+  max-width: 750px;
+  height: 24px;
+  background: #e1e4e8;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+  
+  .progress-bar{
+    display: block;
+    height: 100%;
+  }
+     
+  .progress-bar span{
+    line-height: 2.5px;
+    text-align: center;
+  }
