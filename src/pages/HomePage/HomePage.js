@@ -4,7 +4,8 @@ import AboutUs from '../../components/AboutUs/AboutUs'
 import JoinUs from '../../components/JoinUs/JoinUs'
 import News from '../../components/News/news'
 import OurGoals from '../../components/OurGoals/OurGoals'
-import Testimonials from '../../components/Testimonials/testimonials'
+import Events from '../../components/Events/Events'
+import Testimonials from '../../components/Testimonials/Testimonials'
 
 const HomePage = () =>{
     return(
@@ -13,6 +14,7 @@ const HomePage = () =>{
         <AboutUs/>
         <OurGoals/>
         <Testimonials/>
+        <Events/>
         <JoinUs/>
         <News/>
         </>

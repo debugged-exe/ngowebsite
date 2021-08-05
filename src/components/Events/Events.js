@@ -1,8 +1,8 @@
 import React from 'react'
-import './Testimonials.css'
+import './Events.css'
 import poor1 from './poor1.jpeg'
 
-function testimonials() {
+function Events() {
     return (
         <div className='test'>
             <div className="tc">
@@ -18,6 +18,7 @@ function testimonials() {
                         <hr style={{ bottom: '0', width: '80%' }} />
                     </div>
                     <div className='hidden'> New component</div>
+
                 </div>
                 <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>Hello World
@@ -53,7 +54,7 @@ function testimonials() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default testimonials;
+export default Events;
