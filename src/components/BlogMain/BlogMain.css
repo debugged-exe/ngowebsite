@@ -1,0 +1,19 @@
+.blog-main p{
+    line-height: 1.5rem;
+}
+
+.blog-main h5{
+    word-spacing: 2px;
+}
+
+.blog-main .line{
+    height: 0.5px;
+    width: 100%;
+    /* opacity: 0.2; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+.blog-main img{
+    filter: grayscale();
+}

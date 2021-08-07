@@ -1,13 +1,15 @@
 import React from 'react';
-import '../components/BlogHeader/BlogHeader.jsx'
+import Navbar from '../../components/Navbar/navbar';
+import BlogHeader from '../../components/BlogHeader/BlogHeader';
+import BlogMain from '../../components/BlogMain/BlogMain';
 
 const BlogPage = () => {
     return (
         <div>
             <BlogHeader />
             <BlogMain />
-            <BlogFooter />
-            
         </div>
     )
 }
+
+export default BlogPage;

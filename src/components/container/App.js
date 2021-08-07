@@ -2,6 +2,7 @@ import './App.css';
 import 'tachyons';
 import HomeBackground from '../HomeBackground/HomeBackground';
 import HomePage from '../../pages/HomePage/HomePage';
+import BlogPage from '../../pages/BlogPage/BlogPage';
 import React from "react";
 import AboutUs from '../AboutUs/AboutUs';
 import Navbar from '../Navbar/navbar';
@@ -34,6 +35,7 @@ class App extends React.Component {
                     <Navbar setProduct={this.setProduct} />
                     <Switch>
                         <Route exact path='/' component={HomePage} />
+                        <Route exact path='/Blog' component={BlogPage} />
                         <Route exact path='/HomeBackground' component={() => <HomeBackground />} />
                         <Route exact path='/AboutUs' component={() => <AboutUs />} />
                         <Route exact path='/OurGoals' component={() => <OurGoals />} />

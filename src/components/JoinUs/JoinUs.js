@@ -7,7 +7,6 @@ import './JoinUs.css'
 function Contact() {
     return (
         <div id='contact'>
-            <div className='margin'></div>
             <section className='parallax' >
                 <div className='parallax-inner flex flex-column justify-center items-center'>
                     <h2 className="f2 pt4">JOIN US</h2>
