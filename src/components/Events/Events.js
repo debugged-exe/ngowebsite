@@ -6,9 +6,9 @@ function Events() {
     return (
         <div className='test'>
             <div className="tc">
-                <h2 className="f2 pt4">LATEST EVENTS</h2>
+                <h2 className="f2 tc pt4">LATEST EVENTS</h2>
                 <div className="line tc bg-yelloe"></div>
-                <h3 className="tc mt2 about-line">Want to catch up on whats been happening lately?
+                <h3 className="tc mt2 tc about-line">Want to catch up on whats been happening lately?
                     Take a look at the latest news of Lambda.</h3>
             </div>
             <div className='test-container mt4'>

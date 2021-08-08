@@ -16,10 +16,10 @@ function Contact() {
                         <div style={{ display: 'flex' }}>
 
                             <BsFillPersonFill size="3rem" color="#F1C34F" style={{ marginRight: '-2rem' }} />
-                            <input className='bg-none pa2 mb2 yelloe mr4 db w-100 ml2' placeholder='Your Name *' />
+                            <input className='bg-none pa2 mb4 yelloe mr4 db w-100 ml2' placeholder='Your Name *' />
 
                             <MdEmail size="3rem" color="#F1C34F" style={{ marginRight: '-2rem' }} />
-                            <input className='bg-none pa2 mb2 yelloe db w-100' type='email' placeholder='Your Email *' />
+                            <input className='bg-none pa2 mb4 yelloe db w-100' type='email' placeholder='Your Email *' />
 
                         </div >
                         <br />
