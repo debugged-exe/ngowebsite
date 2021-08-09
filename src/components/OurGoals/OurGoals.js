@@ -28,13 +28,10 @@ function OurGoals() {
                         <span style={{ fontSize: "0.7rem", lineHeight: "2.5px" }}>600 OUT OF 900 TEACHERS</span>
                     </div>
                 </div>
-                <div className="flex mt4">
+                <div className="flex mt4 buttons">
                     <a className="f4 link dim ph3 br2 pv2 mh4 mb2 dib bg-yelloe white" href="#0"><i><b>MAKE A DONATION</b></i></a>
                     <a className="f4 link dim br2 ba bw1 ph3 pv2 mb2 dib yelloe" href="#0"><i><b>BECOME A VOLUNTEER</b></i></a>
                 </div>
-
-
-
             </div>
 
 

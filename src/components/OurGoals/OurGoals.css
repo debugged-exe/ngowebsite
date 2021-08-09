@@ -1,14 +1,3 @@
-/* .fixed-bg {
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #e88f0a;
-    background-size: 100% 100%;
-  } */
-
 h1{
   vertical-align: middle;
 }
@@ -29,16 +18,9 @@ h1{
 
 
 @media screen and (max-width:320px) {
-  .fixed-bg h1{
-    font-size: 5vw;
-  }
-  .para{
-    font-size: 3vw;
-    line-height: 3vw;
-  }
-  .fixed-bg{
-    background-repeat: no-repeat;
-  }
+  
+
+
 }
 
 
