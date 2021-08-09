@@ -11,7 +11,7 @@ function AboutUs() {
       <div className="tc">
         <h2 className="f2 pt4">ABOUT CHARITY</h2>
         <div className="line tc bg-yelloe"></div>
-        <h3 className="tc mt2 about-line">We're an international organisation working with people in 50 countries for a world free from poverty and injustice.</h3>
+        <h3 className="tr mt2 about-line">We're an international organisation working with people in 50 countries for a world free from poverty and injustice.</h3>
       </div>
 
       <div className="grid-container ma3">
