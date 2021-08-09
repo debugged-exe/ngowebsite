@@ -7,7 +7,6 @@ import { FaRegComments } from 'react-icons/fa'
 import { SiTwitter } from 'react-icons/si'
 import { RiFacebookBoxFill, RiInstagramFill } from 'react-icons/ri'
 import { IoIosArrowBack } from 'react-icons/io'
-import poor1 from '../Events/poor1.jpeg'
 
 function BlogMain() {
     return (
@@ -40,54 +39,6 @@ function BlogMain() {
             <div className="line tc bg-silver"></div>
             <a className="f6 link dim ph3 pv2 mb2 dib white bg-yelloe" href="#0"><IoIosArrowBack className="mt1" /> PREVIOUS</a>
 
-            <h1>RELATED POSTS</h1> 
-            <div>
-
-            <div className='test-container '>
-                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-                    <div className='inner'>
-                        Hello World
-                        <hr style={{ bottom: '0', width: '80%' }} />
-                    </div>
-                    <div className='hidden'> New component</div>
-
-                </div>
-                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-                    <div className='inner'>Hello World
-                        <hr style={{ bottom: '0', width: '80%' }} />
-                    </div>
-                    <div className='hidden'>New component</div>
-                </div>
-                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-                    <div className='inner'>Hello World
-                        <hr style={{ bottom: '0', width: '80%' }} />
-                    </div>
-                    <div className='hidden'>New component</div>
-                </div>
-            </div>
-
-            <h2>LEAVE A REPLY</h2>
-            <div className="tl gray">Your email address will not be published. Required fields are marked *</div>
-            <h3>Your message</h3>
-            <textarea style={{ height: '200px' ,backgroundColor:'gainsboro'}} className='yelloe w-100 pa2'/><br/>
-
-              <div className='flex justify-between'>
-                  <div>
-                      <h3>Your name *</h3>
-                      <input style={{backgroundColor:'gainsboro'}} className='yelloe mr4 db w-100'/>
-                  </div>
-                  <div>
-                      <h3>Your Email *</h3>
-                      <input style={{backgroundColor:'gainsboro'}} className='yelloe mr4 db w-100' type='email'/>
-                  </div>
-                  <div>
-                      <h3>Website</h3>
-                      <input style={{backgroundColor:'gainsboro'}} className='yelloe mr4 db w-100' />
-                  </div>
-              </div>
-                <br/>
-              <a className="f6 link dim ph3 pv2 mb2 dib white bg-yelloe" href="#0">Post Comment</a>
-            </div>
         </div >
     );
 }

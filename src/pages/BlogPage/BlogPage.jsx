@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/navbar';
+import BlogFooter from '../../components/BlogFooter/BlogFooter';
 import BlogHeader from '../../components/BlogHeader/BlogHeader';
 import BlogMain from '../../components/BlogMain/BlogMain';
 
@@ -8,6 +8,7 @@ const BlogPage = () => {
         <div>
             <BlogHeader />
             <BlogMain />
+            <BlogFooter />
         </div>
     )
 }
