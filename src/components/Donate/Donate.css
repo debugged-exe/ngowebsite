@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .donate-page{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .donate-page h4, .donate-page a{
+margin: 0px;    }
+
+
+}

@@ -1,47 +1,4 @@
-h1{
-  vertical-align: middle;
-}
-
-  .para{
-    position: relative;
-    height: 150px;
-  }
-
-  .para p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    margin: 0;
-
-  }
-
-
-@media screen and (max-width:320px) {
-  
-
-
-}
-
-
-@media screen and (max-width:425px) {
-  .fixed-bg h1{
-    font-size: 5vw;
-  }
-  .para{
-    font-size: 3vw;
-    line-height: 3vw;
-  }
-}
-
-@media screen and (min-width:1440px) {
-  .para p{
-    font-size: 1.2rem;
-  }
-}
-
 .goals .about-line{
-  width: 45%;
   margin: 0 auto;
   margin-top: 1.5rem;
   line-height: 1.7rem;
@@ -74,3 +31,44 @@ h1{
     line-height: 2.5px;
     text-align: center;
   }
+
+
+@media only screen and (max-width: 768px) {
+  .progress-bar-container .buttons{
+    display: flex;
+    flex-direction: column;
+    }
+  .progress-bar-container .buttons a{
+      width: 250px;
+      font-size: 1rem;
+      text-align: center;
+      margin: 0 auto;
+    }
+  .progress-bar-container .buttons a:nth-child(2){
+      
+      margin-top: 10px;
+    }
+
+    .goals h2{
+      font-size: 1.5rem;
+    }
+
+    .goals .about-line{
+      width: 85%;
+      font-size: 1rem;
+    }
+
+    .progress-bar-container .progress{
+      width: 400px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+  
+}
+
+@media screen and (min-width:1440px) {
+  
+}
+

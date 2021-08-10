@@ -6,18 +6,19 @@ import News from '../../components/News/news'
 import OurGoals from '../../components/OurGoals/OurGoals'
 import Events from '../../components/Events/Events'
 import Testimonials from '../../components/Testimonials/Testimonials'
-import { Navbar } from 'react-bootstrap'
+import Donate from '../../components/Donate/Donate'
 
-const HomePage = () =>{
-    return(
-        <>    
-        <HomeBackground/>
-        <AboutUs/>
-        <OurGoals/>
-        <Testimonials/>
-        <Events/>
-        <JoinUs/>
-        <News/>
+const HomePage = () => {
+    return (
+        <>
+            <HomeBackground />
+            <AboutUs />
+            <OurGoals />
+            <Testimonials />
+            <Events />
+            <JoinUs />
+            <Donate />
+            <News />
         </>
     )
 }
