@@ -5,11 +5,13 @@ import poor1 from './poor1.jpeg'
 function OurGoals() {
     return (
         <div className="mb6">
-            <div className="tc goals">
+            <div className="tc goals w-100">
                 <h2 className="f2 pt4">OUR GOALS</h2>
                 <div className="line tc bg-yelloe"></div>
-                <h3 className="tc mt2 about-line">The goal of the charity is to ensure that we always have the funds
+                <div className='w-100'>
+                <h3 className="tc mt4 ">The goal of the charity is to ensure that we always have the funds
                     readily available to help children get a proper education</h3>
+                    </div>
             </div>
 
             <div className="progress-bar-container flex flex-column justify-center items-center mt4">
