@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Navbar.css';
+import './navbar.css';
 import logo from './charity-white.png';
 import { HashLink as Link } from 'react-router-hash-link';
 
