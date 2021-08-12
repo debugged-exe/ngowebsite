@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import logo from './charity-white.png';
 import { HashLink as Link } from 'react-router-hash-link';
-import {GiHamburgerMenu} from 'react-icons/gi';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { ImCross } from 'react-icons/im';
 
 function Navbar() {
     const [navbar, setNavbar] = useState('');
@@ -18,32 +19,29 @@ function Navbar() {
         };
     }, []);
 
-    return (
-        <div className={`nav ${show && "nav_back"} navbar ${navbar==='block'?'vertical':''} `}>
-            <div className="db dt-l w-100 border-box pa3 ph5-l">
-                <Link className="db dtc-l v-mid mid-gray link1 dim w-100 w-25-l tl-l mb2 mb0-l" title="Home" to='/'>
-                    <div className="flex justify-center items-center">
-                        <img src={logo} className="dib w3 h3" alt="Site Name" />
-                        <span className='b f4 ml3'><i>Charity</i></span><br />
-                    </div>
-                </Link>
 
-                <div className='hide-navlist' style={{display:`${navbar}`}}>
-                
-                    <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/HomeBackground'>HOME</Link>
-                    <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/AboutUs'>ABOUT US</Link>
-                    <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/OurGoals'>OUR GOALS</Link>
-                    <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to='/Testimonials'>TESTIMONIALS</Link>
-                    <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="/News">NEWS</Link>
-                    <Link className="link1 dim dark-gray f6 f5-l dib mr3 mr4-l" to="/JoinUs">JOIN US</Link>
-                    <Link className="f6 link br2 dim ph3 pv2 mb2 dib white bg-yelloe" href="#0"><b>DONATE</b></Link>
-                    </div>
-                
-                <GiHamburgerMenu style={{display:`${navbar==='block'?'none':''}`}} onClick={()=>setNavbar('block')} className='hide-ham show-ham' size='1.8rem'/>
-            </div>
-            <div className="line bg-white" style={{ width: '100%', height: '0.5px', opacity: '0.2' }}></div>
-            
-        </div>
+    return (
+        <div className={`navbar-container ${show === true ? 'nav_black' : ''}`} style={{ background: `${navbar === 'block' ? 'black' : ''}` }}>
+            <Link className="" style={{ textDecoration: "none" }} title="Home" to='/'>
+                <div className="nav-logo">
+                    <img src={logo} className="" alt="Site Name" />
+                    <span className=' white b f3 '><i> Charity </i></span><br />
+                </div>
+            </Link>
+
+            <ul className={'nav-list'} style={{ display: `${navbar === 'block' ? 'flex' : ''}` }}>
+                <Link className="list-items " to='/HomeBackground'> <li>HOME</li> </Link>
+                <Link className="list-items" to='/OurGoals'> <li>OUR GOALS</li> </Link>
+                <Link className="list-items" to='/Testimonials'> <li>TESTIMONIALS</li> </Link>
+                <Link className="list-items" to='/AboutUs'> <li>ABOUT US</li> </Link>
+                <Link className="list-items" to="/News"> <li>NEWS</li> </Link>
+                <Link className="list-items" to="/JoinUs"> <li>JOIN US</li> </Link>
+                <Link className="f6 link br2 grow ph3 pv2 mh2 dib white bg-yelloe" href="#0"><li><b>DONATE</b></li></Link>
+            </ul>
+
+            <GiHamburgerMenu style={{ display: `${navbar === 'block' ? 'none' : ''}`, position: 'fixed', top: '50px', right: '50px' }} className='hide-ham' onClick={() => setNavbar('block')} size='1.8rem' />
+            <ImCross style={{ display: `${navbar === 'block' ? '' : 'none'}`, position: 'fixed', top: '50px', right: '50px' }} className='hide-ham' onClick={() => setNavbar('')} size='1rem' />
+        </div >
     );
 }
 

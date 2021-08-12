@@ -5,7 +5,7 @@ import HomePage from '../../pages/HomePage/HomePage';
 import BlogPage from '../../pages/BlogPage/BlogPage';
 import React from "react";
 import AboutUs from '../AboutUs/AboutUs';
-import Navbar from '../Navbar/navbar';
+import Navbar from '../Navbar/Navbar';
 import Donate from '../Donate/Donate'
 import JoinUs from '../JoinUs/JoinUs'
 import News from '../News/news'
