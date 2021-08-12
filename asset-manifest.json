@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ngowebsite/static/css/main.de03eb4a.chunk.css",
+    "main.js": "/ngowebsite/static/js/main.01595108.chunk.js",
+    "main.js.map": "/ngowebsite/static/js/main.01595108.chunk.js.map",
+    "runtime-main.js": "/ngowebsite/static/js/runtime-main.42f51c96.js",
+    "runtime-main.js.map": "/ngowebsite/static/js/runtime-main.42f51c96.js.map",
+    "static/css/2.6d7c7915.chunk.css": "/ngowebsite/static/css/2.6d7c7915.chunk.css",
+    "static/js/2.32ff05dc.chunk.js": "/ngowebsite/static/js/2.32ff05dc.chunk.js",
+    "static/js/2.32ff05dc.chunk.js.map": "/ngowebsite/static/js/2.32ff05dc.chunk.js.map",
+    "index.html": "/ngowebsite/index.html",
+    "static/css/2.6d7c7915.chunk.css.map": "/ngowebsite/static/css/2.6d7c7915.chunk.css.map",
+    "static/css/main.de03eb4a.chunk.css.map": "/ngowebsite/static/css/main.de03eb4a.chunk.css.map",
+    "static/js/2.32ff05dc.chunk.js.LICENSE.txt": "/ngowebsite/static/js/2.32ff05dc.chunk.js.LICENSE.txt",
+    "static/media/footer1.a798af56.jpg": "/ngowebsite/static/media/footer1.a798af56.jpg",
+    "static/media/footer2.ea7d59bf.jpg": "/ngowebsite/static/media/footer2.ea7d59bf.jpg",
+    "static/media/footer3.e498d7ec.jpg": "/ngowebsite/static/media/footer3.e498d7ec.jpg",
+    "static/media/footer4.900eeba1.jpg": "/ngowebsite/static/media/footer4.900eeba1.jpg",
+    "static/media/BlogHeader.css": "/ngowebsite/static/media/headerimage.432ae5b4.jpg",
+    "static/media/homebg1.fe503c0c.jpg": "/ngowebsite/static/media/homebg1.fe503c0c.jpg",
+    "static/media/homebg2.a8a76939.jpg": "/ngowebsite/static/media/homebg2.a8a76939.jpg",
+    "static/media/homebg3.a798af56.jpg": "/ngowebsite/static/media/homebg3.a798af56.jpg",
+    "static/media/mainimage.98599ec6.jpg": "/ngowebsite/static/media/mainimage.98599ec6.jpg",
+    "static/media/JoinUs.css": "/ngowebsite/static/media/poor1.5c1a06c5.jpeg",
+    "static/media/poorkids1.16baabca.png": "/ngowebsite/static/media/poorkids1.16baabca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42f51c96.js",
+    "static/css/2.6d7c7915.chunk.css",
+    "static/js/2.32ff05dc.chunk.js",
+    "static/css/main.de03eb4a.chunk.css",
+    "static/js/main.01595108.chunk.js"
+  ]
+}
