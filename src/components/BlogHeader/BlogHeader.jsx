@@ -6,9 +6,9 @@ const BlogHeader = () => {
     return (
         <div className="blog-header mb4">
             <div className="parallax">
-                <div className="blog-title flex justify-between items-center white pt6 tr">
-                    <h2 className="f2 tc">LATEST NEWS</h2>
-                    <h5 className="tc about-line mb2"> HOME   /   BLOG   / NEWS / UNCATEOGORIZED / PARADE / CHARITY </h5>
+                <div className="blog-title flex justify-between items-center white pt6">
+                    <div className="f2 b">LATEST NEWS</div>
+                    <div className="f6 mb2"> HOME / BLOG / NEWS / UNCATEOGORIZED / PARADE / CHARITY </div>
                 </div>
             </div>
         </div>
@@ -16,3 +16,4 @@ const BlogHeader = () => {
 }
 
 export default BlogHeader;
+

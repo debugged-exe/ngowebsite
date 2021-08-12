@@ -11,6 +11,7 @@ function Events() {
                 <h3 className="tc mt2 tc about-line">Want to catch up on whats been happening lately?
                     Take a look at the latest news of Lambda.</h3>
             </div>
+            
             <div className='test-container mt4'>
                 <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>

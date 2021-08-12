@@ -19,7 +19,7 @@ function Navbar() {
 
     return (
         <div className={`nav ${show && "nav_back"}`}>
-            <div className="db dt-l w-100 border-box pa3 ph5-l">
+            <div className=" dt-l w-100 border-box pa3 ph5-l flex justify-between">
                 <Link className="db dtc-l v-mid mid-gray link1 dim w-100 w-25-l tl-l mb2 mb0-l" title="Home" to='/'>
                     <div className="flex justify-center items-center">
                         <img src={logo} className="dib w3 h3" alt="Site Name" />

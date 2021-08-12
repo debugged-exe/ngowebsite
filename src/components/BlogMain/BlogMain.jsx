@@ -10,10 +10,10 @@ import { IoIosArrowBack } from 'react-icons/io'
 
 function BlogMain() {
     return (
-        <div className="blog-main mh7">
+        <div className="blog-main">
             <img src={main} />
             <h2 className="f2 pt4 tl pb0 mb0">PARADE CHARITY</h2>
-            <h5 className="silver flex pb0 mb0 normal">  <AiOutlineClockCircle className="mr2" /> February 18, 2015 | < AiOutlineUser className="mh2" /> langan | < BiNews className="mh2" /> News, Uncategorized | <FaRegComments className="mh2" />No comments </h5>
+            <div className="silver flex pb0 f6 mb0 normal post-deets">  <span><AiOutlineClockCircle className="mr1" /> February 18, 2015 </span> <span>< AiOutlineUser className="mh1" /> langan  </span> <span>< BiNews className="mh1" /> News, Uncategorized  </span> <span className="pr0"><FaRegComments className="mh1" />No comments </span></div>
             <p className="f6">
                 <br />
                 Yes! I am a citizen! Now which way to the welfare office? I’m kidding, I’m kidding. I work, I work. Bart, with $10,000 we’d be millionaires! We could buy all kinds of useful things like…love!
@@ -24,7 +24,7 @@ function BlogMain() {
                 <br /><br />
                 Get ready, skanks! It’s time for the truth train! Your guilty consciences may make you vote Democratic, but secretly you all yearn for a Republican president to lower taxes, brutalize criminals, and rule you like a king! What good is money if it can’t inspire terror in your fellow man?
             </p>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center blog-icons">
                 <div>
                     <a class="f6 link dim ba ph2 br2 pv1 mb2 dib gray mr2" href="#0">charity</a>
                     <a class="f6 link dim ba ph2 br2 pv1 mb2 dib gray" href="#0">event</a>

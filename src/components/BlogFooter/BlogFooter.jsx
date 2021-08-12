@@ -1,9 +1,10 @@
 import React from 'react';
+import './BlogFooter.css'
 import poor1 from '../Events/poor1.jpeg'
 
 const BlogFooter = () => {
     return (
-        <div className="mh7">
+        <div className="blog-footer">
             <h4>RELATED POSTS</h4>
             <div>
 
@@ -35,18 +36,18 @@ const BlogFooter = () => {
                 <h3>Your message</h3>
                 <textarea style={{ height: '200px', backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 w-100 pa2' /><br />
 
-                <div className='flex justify-between'>
+                <div className='flex justify-between feedback'>
                     <div>
                         <h3>Your name *</h3>
-                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv1 db w-100' />
+                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 db w-100' />
                     </div>
                     <div>
                         <h3>Your Email *</h3>
-                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv1 db w-100' type='email' />
+                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 db w-100' type='email' />
                     </div>
                     <div>
                         <h3>Website</h3>
-                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv1 db w-100' />
+                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 db w-100' />
                     </div>
                 </div>
                 <br />

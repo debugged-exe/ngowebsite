@@ -1,3 +1,8 @@
+.blog-main{
+    width: 900px;
+    margin: 0 auto;
+}
+
 .blog-main p{
     line-height: 1.5rem;
 }
@@ -16,4 +21,35 @@
 
 .blog-main img{
     filter: grayscale();
+}
+
+.blog-main .post-deets span{display: block;
+    border-right: 1px solid rgb(145, 145, 145);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+    .blog-main{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .blog-main h2, .blog-main h5{
+        text-align: center;
+    }
+    .blog-main h2, .blog-main .post-deets, .blog-main p, .blog-main img{
+        width: 100%;
+        margin: 10px 10px;
+    }
+
+    .blog-main p{
+        overflow: visible;
+    }
+
+    .blog-main .blog-icons{
+        display: flex;
+        flex-direction: column;   
+     }
 }

@@ -8,8 +8,9 @@ import { BsArrowUp } from 'react-icons/bs'
 
 const news = () => {
   return (
-    <div>
-      <div className="flex justify-center tl bg-dark-gray white  ph7 pv4 lh-copy">
+
+      <div className="flex justify-center tl bg-dark-gray white footer-container pv4 lh-copy">
+
         <div className="w-40 mr6">
           <h4 className="yelloe b">ABOUT CHARITY</h4>
           <p className="f6">We’re an international development organisation with our head office based in Greece.
@@ -55,10 +56,8 @@ const news = () => {
             </li>
           </ul>
         </div>
+        
       </div>
-
-
-    </div>
   )
 }
 

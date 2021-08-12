@@ -11,7 +11,7 @@ height: 400px;
 font-size: 1.4rem;
 } */
 
-@media screen and(max-width:375px){
+@media screen and (max-width:375px){
     .testimonial{
        padding: 0;
        width: 100%; 
@@ -19,4 +19,10 @@ font-size: 1.4rem;
     .outer{
         font-size: 0.4em;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-inner h2{
+        font-size: 1.5rem;
+      }
 }

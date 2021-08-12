@@ -5,17 +5,50 @@
 .blog-header .parallax{
     background:  rgba(0, 0, 0, 0.637) url('headerimage.jpg') no-repeat fixed center/cover;
     object-position: 50% 50%; ;
-    height: 35%;
+    /* height: 40%; */
     filter: grayscale();
 
 }
 
 .blog-header .blog-title{
     margin: 0 auto;
-    width: 70%;
+    width: 1000px;
+    padding-bottom: 50px;
+    
 }
 
-.blog-header .about-line{
-    width: 60%;
-    word-spacing: 10px;
+.blog-title div:nth-child(2){
+    width: fit-content;
+    word-spacing: 4px;
+    /* float: left; */
+}
+
+.blog-title div:nth-child(1){
+    position: relative;
+    /* float: right; */
+    width: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+    .blog-header .parallax{
+        height: 500px;
+    }
+
+    .blog-title{
+        display: block;
+    }
+
+    .blog-title div:nth-child(2){
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .blog-title div:nth-child(1){
+        float: none;
+        width:auto;
+        text-align: center;
+        margin-top: 100px;
+    }
 }

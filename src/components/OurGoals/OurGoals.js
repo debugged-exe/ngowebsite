@@ -9,7 +9,7 @@ function OurGoals() {
                 <h2 className="f2 pt4">OUR GOALS</h2>
                 <div className="line tc bg-yelloe"></div>
                 <div className='w-100'>
-                <h3 className="tc mt4 ">The goal of the charity is to ensure that we always have the funds
+                <h3 className="tc mt4 about-line">The goal of the charity is to ensure that we always have the funds
                     readily available to help children get a proper education</h3>
                     </div>
             </div>
