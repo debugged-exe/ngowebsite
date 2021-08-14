@@ -5,10 +5,10 @@ import headerimage from './headerimage.jpg';
 const BlogHeader = () => {
     return (
         <div className="blog-header mb4">
-            <div className="parallax">
-                <div className="blog-title flex justify-between items-center white pt6">
-                    <div className="f2 b">LATEST NEWS</div>
-                    <div className="f6 mb2"> HOME / BLOG / NEWS / UNCATEOGORIZED / PARADE / CHARITY </div>
+            <div className="parallaxx">
+                <div className="blog-title">
+                    <div className="f2 white tc b blog-h">LATEST NEWS</div>
+                    <div className="f6 white tr breadcrumb"> HOME / BLOG / NEWS / UNCATEOGORIZED / PARADE / CHARITY </div>
                 </div>
             </div>
         </div>

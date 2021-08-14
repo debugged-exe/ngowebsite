@@ -38,16 +38,16 @@ const BlogFooter = () => {
 
                 <div className='flex justify-between feedback'>
                     <div>
-                        <h3>Your name *</h3>
-                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 db w-100' />
+                        <h4>Your name*</h4>
+                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 normal db w-100' />
                     </div>
                     <div>
-                        <h3>Your Email *</h3>
-                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 db w-100' type='email' />
+                        <h4>Your Email*</h4>
+                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 normal db w-100' type='email' />
                     </div>
                     <div>
-                        <h3>Website</h3>
-                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 db w-100' />
+                        <h4>Website</h4>
+                        <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f6 mr4 pv2 normal db w-100' />
                     </div>
                 </div>
                 <br />

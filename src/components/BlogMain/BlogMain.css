@@ -1,6 +1,18 @@
 .blog-main{
-    width: 900px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px){
+.blog-main {
+    width: 970px;
+}
+}
+
+@media (min-width: 768px){
+.blog-main {
+    width: 750px;
+    }
 }
 
 .blog-main p{
@@ -23,6 +35,11 @@
     filter: grayscale();
 }
 
+
+.blog-main .post-deets{
+    flex-wrap: wrap;
+}
+
 .blog-main .post-deets span{display: block;
     border-right: 1px solid rgb(145, 145, 145);
     padding-right: 10px;
@@ -33,7 +50,7 @@
 
     .blog-main{
         width: 100%;
-        margin: 10px;
+        padding: 15px;
     }
 
     .blog-main h2, .blog-main h5{
@@ -41,7 +58,7 @@
     }
     .blog-main h2, .blog-main .post-deets, .blog-main p, .blog-main img{
         width: 100%;
-        margin: 10px 10px;
+        /* margin: 10px 10px; */
     }
 
     .blog-main p{

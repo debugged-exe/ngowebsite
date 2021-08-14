@@ -1,18 +1,37 @@
-.blog-header{
-    margin-top: 0;
-}
 
-.blog-header .parallax{
+
+.blog-header .parallaxx{
     background:  rgba(0, 0, 0, 0.637) url('headerimage.jpg') no-repeat fixed center/cover;
-    object-position: 50% 50%; ;
-    /* height: 40%; */
+    background-blend-mode: darken;
     filter: grayscale();
+    padding: 150px 50px 50px 50px;
+}
+
+.blog-title{
+   
+        display: grid;
+        grid-template-columns:40% 60%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px;
+}
+
+@media screen and (max-width:980px) {
+    .blog-title{
+        display: block;
+        padding: 0;
+    }
+
+    .blog-title .breadcrumb{
+        text-align: center;
+        margin-top: 150px;
+    }
 
 }
 
-.blog-header .blog-title{
-    margin: 0 auto;
-    width: 1000px;
+
+/* .blog-header .blog-title{
     padding-bottom: 50px;
     
 }
@@ -20,35 +39,29 @@
 .blog-title div:nth-child(2){
     width: fit-content;
     word-spacing: 4px;
-    /* float: left; */
 }
 
 .blog-title div:nth-child(1){
     position: relative;
-    /* float: right; */
     width: fit-content;
 }
 
 @media screen and (max-width: 1024px) {
-    .blog-header .parallax{
-        height: 500px;
-    }
-
-    .blog-title{
-        display: block;
-    }
-
-    .blog-title div:nth-child(2){
-        float: none;
+    .blog-header .parallaxx{
         width: 100%;
-        text-align: center;
-        margin-top: 100px;
     }
 
+    
+  
     .blog-title div:nth-child(1){
         float: none;
         width:auto;
         text-align: center;
         margin-top: 100px;
     }
-}
+    .blog-title div:nth-child(2){
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    } */
