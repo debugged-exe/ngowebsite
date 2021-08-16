@@ -4,25 +4,26 @@ import footer1 from './footer1.jpg'
 import footer2 from './footer2.jpg'
 import footer3 from './footer3.jpg'
 import footer4 from './footer4.jpg'
-import { BsArrowUp } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const news = () => {
   return (
 
-      <div className="flex justify-center tl bg-dark-gray white footer-container pv4 lh-copy">
+    <div className="flex justify-center tl bg-dark-gray white footer-container pv4 lh-copy">
 
-        <div className="w-40 mr6">
-          <h4 className="yelloe b">ABOUT CHARITY</h4>
-          <p className="f6">We’re an international development organisation with our head office based in Greece.
-            We also have offices right across Asia, the <span className="yelloe">Americas</span> and Europe. We believe the people whose lives our work affects should decide how we’re run.
-            <br />
-            <br />
-            You can help us make a fairer, better world – wherever you are. Your voice can persuade world leaders to change policies.</p>
-        </div>
+      <div className="w-40 mr6">
+        <h4 className="yelloe b">ABOUT CHARITY</h4>
+        <p className="f6">We’re an international development organisation with our head office based in Greece.
+          We also have offices right across Asia, the <span className="yelloe">Americas</span> and Europe. We believe the people whose lives our work affects should decide how we’re run.
+          <br />
+          <br />
+          You can help us make a fairer, better world – wherever you are. Your voice can persuade world leaders to change policies.</p>
+      </div>
 
-        <div className="footer-right" align="left">
-          <h4 className="yelloe b">LATEST EVENTS</h4>
-          <ul>
+      <div className="footer-right" align="left">
+        <h4 className="yelloe b">LATEST EVENTS</h4>
+        <ul>
+          <Link to='blog'>
             <li className="flex items-start mb2">
               <img src={footer1} width="50px"></img>
               <div className="ml2">
@@ -30,7 +31,10 @@ const news = () => {
                 <span className="f6 white mt0">February 18, 2015</span>
               </div>
             </li>
-            <div className="line"></div>
+          </Link>
+          <div className="line"></div>
+
+          <Link to='blog'>
             <li className="flex items-start mb2">
               <img src={footer2} width="50px"></img>
               <div className="ml2">
@@ -38,7 +42,10 @@ const news = () => {
                 <span className="f6 white mt0">January 25, 2015</span>
               </div>
             </li>
-            <div className="line"></div>
+          </Link>
+          <div className="line"></div>
+
+          <Link to='blog'>
             <li className="flex items-start mb2">
               <img src={footer3} width="50px"></img>
               <div className="ml2">
@@ -46,7 +53,10 @@ const news = () => {
                 <span className="f6 white mt0">December 25, 2014</span>
               </div>
             </li>
-            <div className="line"></div>
+          </Link>
+          <div className="line"></div>
+
+          <Link to='blog'>
             <li className="flex items-start mb2">
               <img src={footer4} width="50px" height="50px" ></img>
               <div className="ml2">
@@ -54,10 +64,11 @@ const news = () => {
                 <span className="f6 white mt0">November 25, 2014</span>
               </div>
             </li>
-          </ul>
-        </div>
-        
+          </Link>
+        </ul>
       </div>
+
+    </div>
   )
 }
 

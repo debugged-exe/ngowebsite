@@ -36,16 +36,15 @@ class App extends React.Component {
                     <Switch>
                         <Route exact path='/' component={HomePage} />
                         <Route exact path='/Blog' component={BlogPage} />
-                        <Route exact path='/HomeBackground' component={() => <HomeBackground />} />
-                        <Route exact path='/AboutUs' component={() => <AboutUs />} />
-                        <Route exact path='/OurGoals' component={() => <OurGoals />} />
-                        <Route exact path='/Testimonials' component={() => <Testimonials />} />
-                        <Route exact path='/Events' component={() => <Events />} />
-                        <Route exact path='/News' component={() => <News />} />
-                        <Route exact path='/JoinUs' component={() => <JoinUs />} />
-                        <Route exact path='/Donate' component={() => <Donate />} />
+                        <Route exact path='/HomeBackground' component={HomeBackground} />
+                        <Route exact path='/AboutUs' component={AboutUs} />
+                        <Route exact path='/OurGoals' component={OurGoals} />
+                        <Route exact path='/Testimonials' component={Testimonials} />
+                        <Route exact path='/Events' component={Events} />
+                        <Route exact path='/JoinUs' component={JoinUs} />
+                        <Route exact path='/Donate' component={Donate} />
                     </Switch>
-                    <a href="#" className="back-to-top flex items-center justify-center white"><BsArrowUp /></a>
+                    <Route exact path='/News' component={News} />
                 </BrowserRouter>
             </div>
         );
