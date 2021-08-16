@@ -12,7 +12,7 @@ import News from '../News/news'
 import OurGoals from '../OurGoals/OurGoals'
 import Events from '../Events/Events'
 import Testimonials from '../Testimonials/Testimonials';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 import { BsArrowUp } from 'react-icons/bs'
 
 
@@ -31,10 +31,11 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <BrowserRouter>
+                <HashRouter>
                     <Navbar setProduct={this.setProduct} />
                     <Switch>
                         <Route exact path='/' component={HomePage} />
+                        <Route exact path='/ngowebsite' component={HomePage} />
                         <Route exact path='/Blog' component={BlogPage} />
                         <Route exact path='/HomeBackground' component={HomeBackground} />
                         <Route exact path='/AboutUs' component={AboutUs} />
@@ -45,7 +46,7 @@ class App extends React.Component {
                         <Route exact path='/Donate' component={Donate} />
                     </Switch>
                     <Route exact path='/News' component={News} />
-                </BrowserRouter>
+                </HashRouter>
             </div>
         );
 
