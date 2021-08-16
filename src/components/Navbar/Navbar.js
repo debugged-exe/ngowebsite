@@ -22,12 +22,12 @@ function Navbar() {
 
     return (
         <div className={`navbar-container ${show === true ? 'nav_black' : ''}`} style={{ background: `${navbar === 'block' ? 'black' : ''}` }}>
-            <Link className="" style={{ textDecoration: "none" }} title="Home" to='/'>
-                <div className="nav-logo">
+            <div className="" style={{ textDecoration: "none" }} title="Home" >
+                <Link to='/' className="nav-logo">
                     <img src={logo} className="" alt="Site Name" />
                     <span className=' white b f3 '><i> Charity </i></span><br />
-                </div>
-            </Link>
+                </Link>
+            </div>
 
             <ul className={'nav-list'} style={{ display: `${navbar === 'block' ? 'flex' : ''}` }}>
                 <Link className="list-items " to='/HomeBackground'> <li>HOME</li> </Link>
