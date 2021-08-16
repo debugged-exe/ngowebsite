@@ -38,14 +38,14 @@ function Events() {
                 </div>
             </div>
             <div className='test-container' style={{ paddingBottom: '10%' }}>
-                <Link to='/blog'>
-                    <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-                        <div className='inner'>Hello World
-                            <hr style={{ bottom: '0', width: '80%' }} />
-                        </div>
-                        <div className='hidden'>New component</div>
+
+                <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    <div className='inner'>Hello World
+                        <hr style={{ bottom: '0', width: '80%' }} />
                     </div>
-                </Link>
+                    <div className='hidden'>New component</div>
+                </div>
+
                 <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                     <div className='inner'>Hello World
                         <hr style={{ bottom: '0', width: '80%' }} />
