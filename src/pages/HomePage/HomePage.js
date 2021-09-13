@@ -7,6 +7,7 @@ import OurGoals from '../../components/OurGoals/OurGoals'
 import Events from '../../components/Events/Events'
 import Testimonials from '../../components/Testimonials/Testimonials'
 import Donate from '../../components/Donate/Donate'
+import Footer from '../../components/Footer/Footer'
 
 const HomePage = () => {
     return (
@@ -19,6 +20,7 @@ const HomePage = () => {
             <JoinUs />
             <Donate />
             <News />
+            <Footer />
         </>
     )
 }

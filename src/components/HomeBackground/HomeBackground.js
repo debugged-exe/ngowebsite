@@ -16,21 +16,21 @@ class HomeBackground extends Component {
           <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + homebg1 + ')', backgroundSize: 'cover', width: '100vw' }}>
             <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <a className="f6 link dim ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
+              <a className="f6 link grow ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
             </Link>
           </div>
 
           <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + homebg2 + ')', backgroundSize: 'cover', width: '100vw' }}>
             <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <a className="f6 link dim ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
+              <a className="f6 link grow ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
             </Link>
           </div>
 
           <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + homebg3 + ')', backgroundSize: 'cover', width: '100vw' }}>
             <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <a className="f6 link dim ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
+              <a className="f6 link grow ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
             </Link>
           </div>
 

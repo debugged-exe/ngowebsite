@@ -1,6 +1,6 @@
 .navbar-container{
     display: grid;
-    grid-template-columns:25% 75%;
+    grid-template-columns:50% 50%;
     align-items: center;
     justify-content: center;
     background: none;
@@ -33,7 +33,7 @@
 }
 
 .list-items{
-    margin: 0 10px;
+    margin: 0 20px;
     color: white;
     text-decoration: none;
     font-size: 16px;

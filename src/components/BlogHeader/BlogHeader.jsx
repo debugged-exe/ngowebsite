@@ -8,7 +8,7 @@ const BlogHeader = () => {
             <div className="parallaxx">
                 <div className="blog-title">
                     <div className="f2 white tc b blog-h">LATEST NEWS</div>
-                    <div className="f6 white tr breadcrumb"> HOME / BLOG / NEWS / UNCATEOGORIZED / PARADE / CHARITY </div>
+                    {/* <div className="f6 white tr breadcrumb"> HOME / BLOG / NEWS / UNCATEOGORIZED / PARADE / CHARITY </div> */}
                 </div>
             </div>
         </div>

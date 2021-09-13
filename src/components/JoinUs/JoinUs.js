@@ -49,7 +49,7 @@ class Contact extends React.PureComponent {
 
     render() {
         return (
-            <div id='contact'>
+            <div id='JoinUs'>
                 <section className='parallax' >
                     <div className='parallax-inner flex flex-column justify-center items-center' style={{ fontSize: '1.4rem' }}>
                         <h2 className="f2 pt4">JOIN US</h2>
@@ -75,7 +75,7 @@ class Contact extends React.PureComponent {
                             <FaPen size="1.2rem" color="#F1C34F" style={{ marginLeft: '1rem', marginBottom: '-2rem' }} />
                             <textarea style={{ height: '200px' }} className='bg-none yelloe w-100 form4 pa2 mb4 dib' placeholder='Your message' name="message" onChange={this.handleChange} required />
 
-                            <button type="submit" className="f6 link dim ph3 pv2 mb2 w-40 dib white bg-yelloe" href="#0"><i><b>SEND EMAIL</b></i></button>
+                            <button type="submit" className="f6 link grow ph3 pv2 mb2 w-40 dib white bg-yelloe" href="#0"><i><b>SEND EMAIL</b></i></button>
                         </form>
                     </div>
                 </section>

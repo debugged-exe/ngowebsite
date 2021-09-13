@@ -30,12 +30,12 @@ function Navbar() {
             </div>
 
             <ul className={'nav-list'} style={{ display: `${navbar === 'block' ? 'flex' : ''}` }}>
-                <Link className="list-items " to='/HomeBackground'> <li>HOME</li> </Link>
+                {/* <Link className="list-items " to='/HomeBackground'> <li>HOME</li> </Link>
                 <Link className="list-items" to='/OurGoals'> <li>OUR GOALS</li> </Link>
-                <Link className="list-items" to='/Testimonials'> <li>TESTIMONIALS</li> </Link>
-                <Link className="list-items" to='/AboutUs'> <li>ABOUT US</li> </Link>
+                <Link className="list-items" to='/Testimonials'> <li>TESTIMONIALS</li> </Link> */}
+                <Link className="list-items" to='#AboutUs'> <li>ABOUT US</li> </Link>
                 <Link className="list-items" to="/Blog"> <li>BLOG</li> </Link>
-                <Link className="list-items" to="/JoinUs"> <li>JOIN US</li> </Link>
+                <Link className="list-items" to="#JoinUs"> <li>JOIN US</li> </Link>
                 <Link className="f6 link br2 grow ph3 pv2 mh2 dib white bg-yelloe" href="#0"><li><b>DONATE</b></li></Link>
             </ul>
 
