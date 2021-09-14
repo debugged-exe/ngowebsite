@@ -1,21 +1,23 @@
 import React from 'react'
+import './Footer.css'
 import 'tachyons'
 import { AiOutlineFacebook,AiOutlineInstagram,AiOutlineMail,AiOutlineWhatsApp,AiOutlineCopyrightCircle} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
-            <div className='flex justify-between bg-black white'>
+            <div className='foot flex h3 items-center justify-around bg-black white'>
                <div>
                <AiOutlineCopyrightCircle /> Copyrights 2021 | debugged.exe
                </div>
                <div>
-                     Privacy Policy | Terms & Conditions
+                   <Link to='/Privacy' className='white no-underline'> Privacy Policy </Link>| <Link to='/termsandconditions' className='white no-underline'>Terms & Conditions</Link>
                 </div>
-                <div className='flex justify-betweenwhite'>
-                <AiOutlineFacebook className="mr2" />
-                <AiOutlineInstagram className="mr2" />
-                <AiOutlineMail className="mr2" />
-                <AiOutlineWhatsApp className="mr2" />
+                <div className='flex pointer justify-between white'>
+                <AiOutlineFacebook className="mr2 dim " />
+                <AiOutlineInstagram className="mr2 dim " />
+                <AiOutlineMail className="mr2 dim " />
+                <AiOutlineWhatsApp className="mr2 dim " />
                 </div>
             </div>
     )

@@ -13,6 +13,8 @@ import OurGoals from '../OurGoals/OurGoals'
 import Events from '../Events/Events'
 import Testimonials from '../Testimonials/Testimonials';
 import { Route, Switch, HashRouter } from 'react-router-dom';
+import Privacy from '../Privacy/Privacy';
+import TermsAndCondition from '../TermsAndCondition/TermsAndCondition';
 import { BsArrowUp } from 'react-icons/bs'
 
 
@@ -44,6 +46,8 @@ class App extends React.Component {
                         <Route exact path='/Events' component={Events} />
                         <Route exact path='/JoinUs' component={JoinUs} />
                         <Route exact path='/Donate' component={Donate} />
+                        <Route exact path='/Privacy' component={Privacy} />
+                        <Route exact path='/termsandconditions' component={TermsAndCondition} />
                     </Switch>
                     <Route exact path='/News' component={News} />
                 </HashRouter>

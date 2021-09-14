@@ -8,7 +8,7 @@ const BlogFooter = () => {
             <h4>RECENT EVENTS</h4>
             <div>
 
-                <div className='test-container '>
+                <div className='test-container flex'>
                     <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                         <div className='inner'>
                             Hello World
