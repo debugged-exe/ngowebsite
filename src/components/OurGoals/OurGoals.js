@@ -14,7 +14,7 @@ function OurGoals() {
                     </div>
             </div>
 
-            <div className="progress-bar-container flex flex-column justify-center items-center mt4">
+            <div className="progress-bar-container flex flex-column ml3 mr3 justify-center items-center mt4">
                 <div className="progress mv2">
                     <div className="progress-bar w-75 bg-yelloe white b tc">
                         <span style={{ fontSize: "0.7rem", lineHeight: "2.5px" }}>$75 OUT OF $100 RAISED</span>

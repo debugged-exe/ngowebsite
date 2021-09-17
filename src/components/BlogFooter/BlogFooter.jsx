@@ -8,7 +8,7 @@ const BlogFooter = () => {
             <h4>RECENT EVENTS</h4>
             <div>
 
-                <div className='test-container flex'>
+                <div className='test-container items-center flex'>
                     <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                         <div className='inner'>
                             Hello World
@@ -17,7 +17,7 @@ const BlogFooter = () => {
                         <div className='hidden'> New component</div>
 
                     </div>
-                    <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    <div className='category h4' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                         <div className='inner'>Hello World
                             <hr style={{ bottom: '0', width: '80%' }} />
                         </div>
@@ -34,7 +34,7 @@ const BlogFooter = () => {
                 <h4>LEAVE A FEEDBACK</h4>
                 <h5 className="tl gray normal">Your email address will not be published. Required fields are marked *</h5>
 
-                <div className='flex justify-between feedback'>
+                <div className='flex justify-around feedback'>
                     <div>
                         <h4>Your name*</h4>
                         <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f3 pv2 normal db w-100' />

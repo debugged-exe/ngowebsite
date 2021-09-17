@@ -32,7 +32,8 @@
     text-align: center;
   }
 
-
+  
+  
 @media only screen and (max-width: 768px) {
   .progress-bar-container .buttons{
     display: flex;
@@ -71,8 +72,3 @@
     margin-right: 10px;
   }
 }
-
-@media screen and (min-width:1440px) {
-  
-}
-

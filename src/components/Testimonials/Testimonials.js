@@ -16,7 +16,7 @@ function Testimonials() {
                     <div className='flex flex-column justify-center tc items-center white outer'>
                           
                                 <h3 className='pa6-ns pa2'>
-                                    <ImQuotesLeft size="3rem" color="white" />
+                                    <ImQuotesLeft size="2.5rem" color="white" />
                                     <i> We have been working with Charity for over ten years now and our relationship has moved from that of charity client event organisers to friends. Charity is a great team committed to providing innovative, fun and challenging events.
                                     </i>
                                 </h3>
@@ -27,7 +27,7 @@ function Testimonials() {
                         <div className='flex flex-column justify-center tc items-center white outer'>
                           
                           <h3 className='pa6-ns pa2'>
-                              <ImQuotesLeft size="3rem" color="white" />
+                              <ImQuotesLeft size="2.5rem" color="white" />
                               <i> We have been working with Charity for over ten years now and our relationship has moved from that of charity client event organisers to friends. Charity is a great team committed to providing innovative, fun and challenging events.
                               </i>
                           </h3>
@@ -38,7 +38,7 @@ function Testimonials() {
                   <div className='flex flex-column justify-center tc items-center white outer'>
                           
                                 <h3 className='pa6-ns pa2'>
-                                    <ImQuotesLeft size="3rem" color="white" />
+                                    <ImQuotesLeft size="2.5rem" color="white" />
                                     <i> We have been working with Charity for over ten years now and our relationship has moved from that of charity client event organisers to friends. Charity is a great team committed to providing innovative, fun and challenging events.
                                     </i>
                                 </h3>
