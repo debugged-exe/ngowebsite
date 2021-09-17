@@ -5,7 +5,7 @@ import 'tachyons'
 
 function AboutUs() {
   return (
-    <div className='about-us' id="AboutUs">
+    <div className='about-us' id="aboutUs">
       <div className="tc">
         <h2 className="f2 pt4">ABOUT CHARITY</h2>
         <div className="line tc bg-yelloe"></div>

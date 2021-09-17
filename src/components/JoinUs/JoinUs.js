@@ -49,7 +49,7 @@ class Contact extends React.PureComponent {
 
     render() {
         return (
-            <div id='JoinUs'>
+            <div id='joinUs'>
                 <section className='parallax' >
                     <div className='parallax-inner flex flex-column justify-center items-center' style={{ fontSize: '1.4rem' }}>
                         <h2 className="f2 pt4">JOIN US</h2>

@@ -6,11 +6,8 @@
 {
 	background: none;
 	transition: 0.5s;
-	/* align-self: center; */
 	color:white;
 	border:2px solid;
-	/* position: relative; */
-	/* top: 50%; */
 }
 .donate1:hover
 {
@@ -21,7 +18,6 @@
 
 .bg-image{
   font-size: 2.5rem;
-  /* width: auto; */
   color: white;
   padding: 50px 0 50px;
   margin-left: auto;

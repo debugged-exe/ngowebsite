@@ -38,13 +38,13 @@ class App extends React.Component {
                     <Switch>
                         <Route exact path='/' component={HomePage} />
                         <Route exact path='/ngowebsite' component={HomePage} />
-                        <Route exact path='/Blog' component={BlogPage} />
+                        <Route exact path='/blog' component={BlogPage} />
                         <Route exact path='/HomeBackground' component={HomeBackground} />
-                        <Route exact path='/AboutUs' component={AboutUs} />
+                        <Route exact path='/aboutUs' component={AboutUs} />
                         <Route exact path='/OurGoals' component={OurGoals} />
                         <Route exact path='/Testimonials' component={Testimonials} />
                         <Route exact path='/Events' component={Events} />
-                        <Route exact path='/JoinUs' component={JoinUs} />
+                        <Route exact path='/joinUs' component={JoinUs} />
                         <Route exact path='/Donate' component={Donate} />
                         <Route exact path='/Privacy' component={Privacy} />
                         <Route exact path='/termsandconditions' component={TermsAndCondition} />
