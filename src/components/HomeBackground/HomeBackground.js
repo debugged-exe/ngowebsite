@@ -10,8 +10,8 @@ class HomeBackground extends Component {
 
   render() {
     return (
-      <div className="home-div">
-        <Carousel itemsToShow={1} style={{ position: 'relative', right: '-15px', left: '-15px', width: '102%' }} showArrows={false} enableAutoPlay={true} interval={3000}>
+      <div className="home-div" style={{marginLeft: '-10px', marginRight: '-10px'}}>
+        <Carousel itemsToShow={1} style={{ position: 'relative' }} showArrows={false} enableAutoPlay={true} interval={3000}>
 
           <div className='slide bg-image flex flex-column justify-center items-center' style={{ backgroundImage: 'url(' + homebg1 + ')', backgroundSize: 'cover', width: '100vw' }}>
             <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
