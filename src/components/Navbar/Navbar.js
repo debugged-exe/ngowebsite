@@ -34,7 +34,23 @@ function Navbar() {
                 <Link className="list-items" to='/OurGoals'> <li>OUR GOALS</li> </Link>
                 <Link className="list-items" to='/Testimonials'> <li>TESTIMONIALS</li> </Link> */}
                 <Link className="list-items" to='#aboutUs'> <li>ABOUT US</li> </Link>
-                <Link className="list-items" to="/blog"> <li>BLOG</li> </Link>
+
+                <Link to="/blog" className="linkInitiatives">
+                <li className="list-style-none mh2 white menu">BLOG
+              <ul className="sub-menu black align-center">
+             <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 1</li></Link>
+             <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 2</li></Link>
+              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 3</li></Link>
+              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 4</li></Link>
+              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 5</li></Link>
+              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 6</li></Link>
+              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 7</li></Link>
+              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 8</li></Link>
+              </ul>
+              </li>
+              </Link>
+
+                {/* <Link className="list-items" to="/blog"> <li>BLOG</li> </Link> */}
                 <Link className="list-items" to="#joinUs"> <li>JOIN US</li> </Link>
                 <Link className="f6 link br2 grow ph3 pv2 mh2 dib white bg-yelloe" href="#0"><li><b>DONATE</b></li></Link>
             </ul>
