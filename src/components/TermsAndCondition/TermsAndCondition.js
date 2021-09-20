@@ -16,12 +16,12 @@ IMPORTANT INFORMATION REGARDING YOUR LEGAL RIGHTS AND REMEDIES.</h4>
 
                 <div className={'center w-80 tl lh-copy'}><br/>
                     <h3>1.OverView</h3>
-                    <p>This Terms of Service Agreement ("Agreement") is entered into by and between GVBU Website, registered
+                    <p>This Terms of Service Agreement ("Agreement") is entered into by and between GVBU Foundation, registered
 address HNO. 163 Ambika Vihar near PHC Gole Gujral Jammu, India ("Company") and you, and is made
-effective as of the date of your use of this website GVBUWebsite.org ("Site") or the date of electronic
+effective as of the date of your use of this website GVBUFoundation.org ("Site") or the date of electronic
 acceptance.
 </p>
-                    <p>This Agreement sets forth the general terms and conditions of your use of the GVBUWebsite.org as
+                    <p>This Agreement sets forth the general terms and conditions of your use of the GVBUFoundation.org as
 well as the products and/or services purchased or accessed through this Site (the "Services").Whether you are
 simply browsing or using this Site or purchase Services, your use of this Site and your electronic acceptance of
 this Agreement signifies that you have read, understand, acknowledge and agree to be bound by this Agreement
@@ -93,7 +93,7 @@ than through this Site itself.
 <p>In addition to the general rules above, the provisions in this Section apply specifically to your use of Companies
 Content posted to Site. Companies Content on this Site, including without limitation the text, software, scripts,
 source code, API, graphics, photos, sounds, music, videos and interactive features and the trademarks, service
-marks and logos contained therein ("Companies Content"), are owned by or licensed to GVBU Website in
+marks and logos contained therein ("Companies Content"), are owned by or licensed to GVBU Foundation in
 perpetuity, and are subject to copyright, trademark, and/or patent protection.
 </p>
 
@@ -208,7 +208,7 @@ migrate to or a refund. Company will not be liable to you or any third party for
 discontinuance of any of the Services we may offer or facilitate access to.</p><br/>
 
 <h3>12. FEES AND PAYMENTS</h3>
-<p>You acknowledge and agree that your payment will be charged and processed by GVBU Website.</p>
+<p>You acknowledge and agree that your payment will be charged and processed by GVBU Foundation.</p>
 <p>You agree to pay any and all prices and fees due for Services purchased or obtained at this Site at the time you
 order the Services.
 </p>

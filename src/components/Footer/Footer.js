@@ -8,7 +8,7 @@ function Footer() {
     return (
             <div className='foot flex h3 items-center justify-around bg-black white'>
                <div>
-               <AiOutlineCopyrightCircle /> Copyrights 2021 | debugged.exe
+               <AiOutlineCopyrightCircle /> Copyrights 2021 | GVBUS
                </div>
                <div>
                    <Link to='/Privacy' className='white no-underline'> Privacy Policy </Link>| <Link to='/termsandconditions' className='white no-underline'>Terms & Conditions</Link>

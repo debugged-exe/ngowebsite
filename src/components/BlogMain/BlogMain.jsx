@@ -13,7 +13,8 @@ function BlogMain() {
         <div className="blog-main">
             <img src={main} />
             <h2 className="f2 pt4 tl pb1 mb0">PARADE CHARITY</h2>
-            <div className="silver flex pb0 f6 mb0 normal post-deets">  <span><AiOutlineClockCircle className="mr1" /> February 18, 2015 </span> 
+            <div className="silver flex pb0 f6 mb0 normal post-deets">  
+            {/* <span><AiOutlineClockCircle className="mr1" /> February 18, 2015 </span>  */}
             {/* <span>< AiOutlineUser className="mh1" /> langan  </span> <span>< BiNews className="mh1" /> News, Uncategorized  </span> <span className="pr0"><FaRegComments className="mh1" />No comments </span> */}
             </div>
             <p className="f6">

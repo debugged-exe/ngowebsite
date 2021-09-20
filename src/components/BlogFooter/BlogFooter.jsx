@@ -34,12 +34,12 @@ const BlogFooter = () => {
                 <h4>LEAVE A FEEDBACK</h4>
                 <h5 className="tl gray normal">Your email address will not be published. Required fields are marked *</h5>
 
-                <div className='flex justify-around feedback'>
-                    <div>
+                <div className='flex justify-start feedback'>
+                    <div className='mr6'>
                         <h4>Your name*</h4>
                         <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f3 pv2 normal db w-100' />
                     </div>
-                    <div>
+                    <div className='mr6'>
                         <h4>Your Email*</h4>
                         <input style={{ backgroundColor: 'gainsboro', outline: 'none', border: 'none' }} className='f3 pv2 normal db w-100' type='email' />
                     </div>

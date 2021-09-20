@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
 
-function Navbar() {
+function Navbar({setInitiative}) {
     const [navbar, setNavbar] = useState('');
     const [show, handleShow] = useState(false);
     useEffect(() => {
@@ -35,17 +35,18 @@ function Navbar() {
                 <Link className="list-items" to='/Testimonials'> <li>TESTIMONIALS</li> </Link> */}
                 <Link className="list-items" to='#aboutUs'> <li>ABOUT US</li> </Link>
 
-                <Link to="/blog" className="linkInitiatives">
-                <li className="list-style-none mh2 white menu">BLOG
-              <ul className="sub-menu black align-center">
-             <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 1</li></Link>
-             <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 2</li></Link>
-              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 3</li></Link>
-              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 4</li></Link>
-              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 5</li></Link>
-              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 6</li></Link>
-              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 7</li></Link>
-              <Link to="/blog" className="linkInitiatives"><li className="sub-menu-item" >Title 8</li></Link>
+                <Link to="/ourInitiatives" className="linkInitiatives">
+                <li className="list-style-none mh2 white menu">OUR INITIATIVES
+              <ul className="sub-menu black align-left">
+             <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("divyang")}} >Divyang</li></Link>
+             <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("educational")}}>Educational</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("environmentcleanliness")}}>Environment cleanliness</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("health")}}>Health</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("livelihood")}}>Livelihood</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("natureinitiatives")}}>Nature initiatives</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("prashikshan")}}>Prashikshan</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("socialinitiative")}}>Social initiative</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("teenagegirls")}}>Teenage girls</li></Link>
               </ul>
               </li>
               </Link>

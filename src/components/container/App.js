@@ -23,6 +23,7 @@ class App extends React.Component {
         super();
         this.state = {
             product: '',
+            initiative:'health'
         }
     }
 
@@ -30,15 +31,19 @@ class App extends React.Component {
         this.setState({ product: product });
     }
 
+    setInitiative = (initiative) => {
+        this.setState({ initiative:initiative });
+    }
+
     render() {
         return (
             <div>
                 <HashRouter>
-                    <Navbar setProduct={this.setProduct} />
+                    <Navbar setProduct={this.setProduct} setInitiative={this.setInitiative} />
                     <Switch>
                         <Route exact path='/' component={HomePage} />
                         <Route exact path='/ngowebsite' component={HomePage} />
-                        <Route exact path='/blog' component={BlogPage} />
+                        <Route exact path='/ourinitiatives' component={BlogPage} />
                         <Route exact path='/HomeBackground' component={HomeBackground} />
                         <Route exact path='/aboutUs' component={AboutUs} />
                         <Route exact path='/OurGoals' component={OurGoals} />

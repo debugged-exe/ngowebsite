@@ -12,15 +12,15 @@ function Privacy (){
                 </h1>
                 <div className={'center w-80 tl lh-copy'}>
 
-                    <p>Your privacy is important to us, so GVBU Website, a India, has created the following Privacy Policy
-("Policy") to let you know what information we collect when you visit our Site GVBU WEBSITE
+                    <p>Your privacy is important to us, so GVBU Foundation, a India, has created the following Privacy Policy
+("Policy") to let you know what information we collect when you visit our Site GVBUFoundation.org
 ("Site"), why we collect it and how we use it.</p><br/>
                     <p>The terms "You," "Your," "Yours" and "User" refer to the entity/person/organization using our Site.</p><br/>
-                    <p>When this Policy mentions "We", "Us," and "Our" it refers to GVBU Website and its subsidiaries and
+                    <p>When this Policy mentions "We", "Us," and "Our" it refers to GVBU Foundation and its subsidiaries and
 affiliates.</p><br/>
 <p>This Privacy Policy is governed by our <Link to="/termsandconditions"> Terms of Services.</Link></p><br/>
 <p>For any questions regarding this Policy or any requests regarding the processing of personal data, please contact
-us at "GVBUwebsite.org"
+us at "GVBUFoundation.org"
 </p>
                 </div>
             </div>
