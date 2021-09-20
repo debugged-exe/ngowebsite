@@ -5,9 +5,9 @@ import Footer from '../Footer/Footer';
 
 function Privacy (){
     return (
-        <section className={'bg-white pt6 pb4'} id="privacy">
+        <section className={'bg-white pt6 pb4'}>
             <div>
-                <h1 className="tc">
+                <h1 className="tc" id='privacy'>
                     Privacy Policy
                 </h1>
                 <div className={'center w-80 tl lh-copy'}>
@@ -18,7 +18,7 @@ function Privacy (){
                     <p>The terms "You," "Your," "Yours" and "User" refer to the entity/person/organization using our Site.</p><br/>
                     <p>When this Policy mentions "We", "Us," and "Our" it refers to GVBU Foundation and its subsidiaries and
 affiliates.</p><br/>
-<p>This Privacy Policy is governed by our <Link to="/termsandconditions"> Terms of Services.</Link></p><br/>
+<p>This Privacy Policy is governed by our <a href="/terms#terms"> Terms of Services.</a></p><br/>
 <p>For any questions regarding this Policy or any requests regarding the processing of personal data, please contact
 us at "GVBUFoundation.org"
 </p>

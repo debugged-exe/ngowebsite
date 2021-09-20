@@ -6,9 +6,9 @@ import Footer from '../Footer/Footer';
 
  function TermsAndCondition() {
     return (
-        <section className={'bg-white pt6 pb4'} id="terms">
-            <div >
-                <h1 className="tc" >
+        <section className={'bg-white pt6 pb4'}  >
+            <div>
+                <h1 className="tc" id='terms'>
                     TERMS OF SERVICES
                 </h1>
                 <h4 className="gray tc">PLEASE READ THIS TERMS OF SERVICE AGREEMENT CAREFULLY, AS IT CONTAINS
@@ -25,7 +25,7 @@ acceptance.
 well as the products and/or services purchased or accessed through this Site (the "Services").Whether you are
 simply browsing or using this Site or purchase Services, your use of this Site and your electronic acceptance of
 this Agreement signifies that you have read, understand, acknowledge and agree to be bound by this Agreement
-our <Link to='/Privacy'> Privacy policy.</Link> The terms "we", "us" or "our" shall refer to Company. The terms "you", "your", "User" or
+our <a href='/privacy#privacy'> Privacy policy.</a> The terms "we", "us" or "our" shall refer to Company. The terms "you", "your", "User" or
 "customer" shall refer to any individual or entity who accepts this Agreement, uses our Site, has access or uses
 the Services. Nothing in this Agreement shall be deemed to confer any third-party rights or benefits.
 </p>

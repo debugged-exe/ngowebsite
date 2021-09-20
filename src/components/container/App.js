@@ -51,8 +51,8 @@ class App extends React.Component {
                         <Route exact path='/Events' component={Events} />
                         <Route exact path='/joinUs' component={JoinUs} />
                         <Route exact path='/Donate' component={Donate} />
-                        <Route exact path='/Privacy' component={Privacy} />
-                        <Route exact path='/termsandconditions' component={TermsAndCondition} />
+                        <Route exact path='/privacy' component={Privacy} />
+                        <Route exact path='/terms' component={TermsAndCondition} />
                     </Switch>
                     <Route exact path='/News' component={News} />
                 </HashRouter>

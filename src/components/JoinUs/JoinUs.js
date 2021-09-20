@@ -60,12 +60,12 @@ class Contact extends React.PureComponent {
                             <div className='form-resp' style={{ display: 'flex' }}>
                                 <div className='flex form1'>
                                     <BsFillPersonFill size="2rem" color="#F1C34F" style={{ marginRight: '-2rem', marginTop: '0.3rem' }} />
-                                    <input className='bg-none pa2 mb4 yelloe db w-100 ' placeholder='Your Name *' name="name" onChange={this.handleChange} required />
+                                    <input className='bg-none join pa2 mb4 yelloe db w-100 ' placeholder='Your Name *' name="name" onChange={this.handleChange} required />
                                 </div>
 
                                 <div className='flex form2'>
                                     <MdEmail size="1.5rem" color="#F1C34F" style={{ marginRight: '-2rem', marginTop: '0.5rem' }} />
-                                    <input className='bg-none pa2 mb4 yelloe db w-100' type='email' placeholder='Your Email *' name="email" onChange={this.handleChange} required />
+                                    <input className='bg-none join pa2 mb4 yelloe db w-100' type='email' placeholder='Your Email *' name="email" onChange={this.handleChange} required />
                                 </div>
                             </div >
 

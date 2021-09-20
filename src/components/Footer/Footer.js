@@ -11,7 +11,7 @@ function Footer() {
                <AiOutlineCopyrightCircle /> Copyrights 2021 | GVBUS
                </div>
                <div>
-                   <Link to='/Privacy' className='white no-underline'> Privacy Policy </Link>| <Link to='/termsandconditions' className='white no-underline'>Terms & Conditions</Link>
+                   <a href='/privacy#privacy' className='white no-underline'> Privacy Policy </a>| <a href='/terms#terms' className='white no-underline'>Terms & Conditions</a>
                 </div>
                 <div className='flex pointer justify-between white'>
                 <AiOutlineFacebook className="mr2 f3 dim " />

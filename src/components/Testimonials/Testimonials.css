@@ -11,6 +11,12 @@ height: 400px;
 font-size: 1.4rem;
 } */
 
+@media screen and (min-width:425px){
+    .pa6-ns{
+        padding: 3rem;
+    } 
+}
+
 @media screen and (max-width:375px){
     .testimonial{
        padding: 0;
