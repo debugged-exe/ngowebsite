@@ -33,7 +33,7 @@ function Navbar({setInitiative}) {
                 {/* <Link className="list-items " to='/HomeBackground'> <li>HOME</li> </Link>
                 <Link className="list-items" to='/OurGoals'> <li>OUR GOALS</li> </Link>
                 <Link className="list-items" to='/Testimonials'> <li>TESTIMONIALS</li> </Link> */}
-                <Link className="list-items" to='#aboutUs'> <li>ABOUT US</li> </Link>
+                <Link className="list-items" to='/ngowebsite#aboutUs'> <li>ABOUT US</li> </Link>
 
                 <Link to="/ourInitiatives" className="linkInitiatives">
                 <li className="list-style-none mh2 white menu">OUR INITIATIVES
@@ -52,7 +52,7 @@ function Navbar({setInitiative}) {
               </Link>
 
                 {/* <Link className="list-items" to="/blog"> <li>BLOG</li> </Link> */}
-                <Link className="list-items" to="#joinUs"> <li>JOIN US</li> </Link>
+                <Link className="list-items" to="/ngowebsite#joinUs"> <li>JOIN US</li> </Link>
                 <Link className="f6 link br2 grow ph3 pv2 mh2 dib white bg-yelloe" href="#0"><li><b>DONATE</b></li></Link>
             </ul>
 
