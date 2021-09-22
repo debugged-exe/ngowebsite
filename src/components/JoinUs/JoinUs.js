@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
 import 'tachyons';
-import { MdEmail } from 'react-icons/md'
+import { MdBorderColor, MdEmail } from 'react-icons/md'
 import { FaPen } from 'react-icons/fa'
 import { BsFillPersonFill, BsFileEarmarkSpreadsheet } from 'react-icons/bs'
 import './JoinUs.css'
+import { Link } from "react-router-dom";
 import { render } from "@testing-library/react";
+import { Button } from "react-bootstrap";
 
 class Contact extends React.PureComponent {
 
@@ -75,7 +77,7 @@ class Contact extends React.PureComponent {
                             <FaPen size="1.2rem" color="#F1C34F" style={{ marginLeft: '1rem', marginBottom: '-2rem' }} />
                             <textarea style={{ height: '200px' }} className='bg-none yelloe w-100 form4 pa2 mb4 dib' placeholder='Your message' name="message" onChange={this.handleChange} required />
 
-                            <button type="submit" className="f6 link grow ph3 pv2 mb2 w-40 dib white bg-yelloe" href="#0"><i><b>SEND EMAIL</b></i></button>
+                            <Button type='submit' className="f6 link br3 grow ph3 pv2 mb2 w-40 tc dib white bg-yelloe"><b>SEND EMAIL</b></Button>
                         </form>
                     </div>
                 </section>

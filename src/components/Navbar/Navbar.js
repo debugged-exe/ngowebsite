@@ -38,15 +38,15 @@ function Navbar({setInitiative}) {
                 <Link to="/ourInitiatives" className="linkInitiatives">
                 <li className="list-style-none mh2 white menu">OUR INITIATIVES
               <ul className="sub-menu black align-left">
-             <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("divyang")}} >Divyang</li></Link>
-             <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("educational")}}>Educational</li></Link>
-              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("environmentcleanliness")}}>Environment cleanliness</li></Link>
-              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("health")}}>Health</li></Link>
-              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("livelihood")}}>Livelihood</li></Link>
-              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("natureinitiatives")}}>Nature initiatives</li></Link>
-              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("prashikshan")}}>Prashikshan</li></Link>
-              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("socialinitiative")}}>Social initiative</li></Link>
-              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("teenagegirls")}}>Teenage girls</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("divyang");setNavbar('')}} >Divyang</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("educational");setNavbar('')}}>Educational</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("environmentcleanliness");setNavbar('')}}>Environment cleanliness</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("health");setNavbar('')}}>Health</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("livelihood");setNavbar('')}}>Livelihood</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("natureinitiatives");setNavbar('')}}>Nature initiatives</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("prashikshan");setNavbar('')}}>Prashikshan</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("socialinitiative");setNavbar('')}}>Social initiative</li></Link>
+              <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("teenagegirls");setNavbar('')}}>Teenage girls</li></Link>
               </ul>
               </li>
               </Link>
