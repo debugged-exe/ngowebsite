@@ -8,28 +8,6 @@ const BlogFooter = () => {
             <h4>RECENT EVENTS</h4>
             <div>
 
-                <div className='test-container items-center flex'>
-                    <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-                        <div className='inner'>
-                            Hello World
-                            <hr style={{ bottom: '0', width: '80%' }} />
-                        </div>
-                        <div className='hidden'> New component</div>
-
-                    </div>
-                    <div className='category h4' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-                        <div className='inner'>Hello World
-                            <hr style={{ bottom: '0', width: '80%' }} />
-                        </div>
-                        <div className='hidden'>New component</div>
-                    </div>
-                    <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-                        <div className='inner'>Hello World
-                            <hr style={{ bottom: '0', width: '80%' }} />
-                        </div>
-                        <div className='hidden'>New component</div>
-                    </div>
-                </div>
 
                 <h4>LEAVE A FEEDBACK</h4>
                 <h5 className="tl gray normal">Your email address will not be published. Required fields are marked *</h5>

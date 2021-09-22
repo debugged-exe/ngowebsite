@@ -4,12 +4,12 @@ import BlogHeader from '../../components/BlogHeader/BlogHeader';
 import BlogMain from '../../components/BlogMain/BlogMain';
 import Footer from '../../components/Footer/Footer';
 
-const BlogPage = () => {
+const BlogPage = ({initiative,setCarousel,caro}) => {
     return (
         <div>
-            <BlogHeader />
-            <BlogMain />
-            <BlogFooter />
+            <BlogHeader  initiative={initiative} />
+            <BlogMain initiative={initiative} setCarousel={setCarousel} />
+            <BlogFooter  initiative={initiative}/>
             <Footer/>
         </div>
     )

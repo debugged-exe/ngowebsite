@@ -77,7 +77,7 @@ class Contact extends React.PureComponent {
                             <FaPen size="1.2rem" color="#F1C34F" style={{ marginLeft: '1rem', marginBottom: '-2rem' }} />
                             <textarea style={{ height: '200px' }} className='bg-none yelloe w-100 form4 pa2 mb4 dib' placeholder='Your message' name="message" onChange={this.handleChange} required />
 
-                            <Button type='submit' className="f6 link br3 grow ph3 pv2 mb2 w-40 tc dib white bg-yelloe"><b>SEND EMAIL</b></Button>
+                            <Button type='submit' style={{outline:'none',border:'none'}} className="f6 link br3 grow ph3 pv2 mb2 w-40 tc dib white bg-yelloe"><i><b>SEND EMAIL</b></i></Button>
                         </form>
                     </div>
                 </section>
