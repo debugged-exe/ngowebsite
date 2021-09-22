@@ -26,7 +26,7 @@ class Contact extends React.PureComponent {
     }
 
     handleForm = (event) => {
-        fetch('http://localhost:3001/JoinUs', {
+        fetch('https://gvbufoundation.herokuapp.com/JoinUs', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

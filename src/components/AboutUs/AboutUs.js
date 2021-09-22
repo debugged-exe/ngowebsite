@@ -13,7 +13,7 @@ function AboutUs() {
       </div>
 
       <div className="grid-container ma3">
-        <img src={Poor} height="550px" className="ml5" />
+        <img src="https://i.postimg.cc/QCtYH873/poorkids1.png" height="550px" className="ml5" />
         <div className="text-container">
           <h5 className="f5 mt5 about-text">We’re an international development organisation with our head office based in <b>Greece</b>. We also have offices right across Asia, the Americas and Europe. We <b>believe</b> the people whose lives our work affects should decide how we’re run.
             <br /><br />
