@@ -89,7 +89,7 @@ function Events({setInitiative}) {
         fetch("https://gvbufoundation.herokuapp.com/prashikshan")
         .then(response => response.json())
         .then(res => {
-          
+          console.log('prashikshan data from fetch',res)
           if (res[0].tagline) {
             setPrashik(res);
           }
@@ -138,12 +138,13 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
-
-                      <div className='inner'   >
+                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
+                         <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
                       </div>
-                      <div className='hidden'>{i.title}</div>
+                      <div className='hidden '>{i.title}</div>
+                     
+                      
                   </div>
                 </Link>
                   
@@ -158,7 +159,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
@@ -178,7 +179,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
@@ -198,7 +199,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
@@ -218,7 +219,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
@@ -238,7 +239,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
@@ -258,7 +259,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
@@ -278,7 +279,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
@@ -298,7 +299,7 @@ function Events({setInitiative}) {
                 return(
                   <Link to="/ourinitiatives"  >
                     <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
 
                       <div className='inner'   >
                           <hr style={{ bottom: '0', width: '80%' }} />
