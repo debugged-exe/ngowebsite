@@ -23,7 +23,7 @@ const EventDisplay = ({caro,initiative,setInitiative}) => {
                     console.log(item.date);
                     return(
                       
-<div>
+                  <div>
                       <h1>{item.eventheading}</h1>
                       <div className="grid-component">
                         {

@@ -157,6 +157,7 @@ function BlogMain({initiative,setCarousel}) {
                     Get ready, skanks! It’s time for the truth train! Your guilty consciences may make you vote Democratic, but secretly you all yearn for a Republican president to lower taxes, brutalize criminals, and rule you like a king! What good is money if it can’t inspire terror in your fellow man?
                 </p>
                 
+                <div className='blog-card items-center'>
                 
                 {
                               item.events.map((i,index)=>{
@@ -165,9 +166,9 @@ function BlogMain({initiative,setCarousel}) {
                                   console.log('recentevents',i);
                                   return(
 
-                              <div className='flex items-center'>
+                              <div >
                                  <Link to ="/eventdisplay" onClick={(e)=>{setCarousel([i]);}}> 
-                                  <div className='category' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                                  <div className='test-category ' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                                     <div className='inner'>
                                     {item.events[0].place}
                                     
@@ -186,6 +187,8 @@ function BlogMain({initiative,setCarousel}) {
 
                               })
                             }
+
+                            </div>
                 
 
 

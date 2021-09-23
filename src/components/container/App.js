@@ -31,8 +31,8 @@ function App(){
                 <HashRouter>
                     <Navbar  setInitiative={setInitiative} />
                     <Switch>
-                        <Route exact path='/' component={HomePage} />
-                      //  <Route exact path='/ngowebsite' component={HomePage} />
+                        <Route exact path='/' component={()=> <HomePage setInitiative={setInitiative}/> } />
+                      //  <Route exact path='/ngowebsite' component={()=> <HomePage setInitiative={setInitiative}/> }/>
                         <Route exact path='/ourinitiatives' component={()=> <BlogPage initiative={initiative} caro={caro} setCarousel={setCarousel}/> } />
                         <Route exact path='/HomeBackground' component={HomeBackground} />
                         <Route exact path='/aboutUs' component={AboutUs} />

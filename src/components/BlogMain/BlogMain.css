@@ -3,9 +3,48 @@
     margin-left: auto;
 }
 
+.blog-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.test-category:hover .inner{
+    bottom: 40px;
+}
+
+.test-category:hover .hidden{
+    
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    background-color:#F1C34F;
+    padding-top: 12px;
+    opacity : 0.8;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div.test-category{
+    display: inline-block;
+    width: 35vh;
+    height: 25vh;
+    margin: 10px;
+ }
+
+@media screen and (min-width: 768px){
+    .blog-card{
+        display: flex;
+        flex-direction: row;
+    }
+    }
+
 @media (min-width: 992px){
 .blog-main {
-    width: 970px;
+    width: 100%;
 }
 }
 

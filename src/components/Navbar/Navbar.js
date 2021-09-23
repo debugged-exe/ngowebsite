@@ -30,9 +30,7 @@ function Navbar({setInitiative}) {
             </div>
 
             <ul className={'nav-list'} style={{ display: `${navbar === 'block' ? 'flex' : ''}` }}>
-                {/* <Link className="list-items " to='/HomeBackground'> <li>HOME</li> </Link>
-                <Link className="list-items" to='/OurGoals'> <li>OUR GOALS</li> </Link>
-                <Link className="list-items" to='/Testimonials'> <li>TESTIMONIALS</li> </Link> */}
+             
                 <Link className="list-items" to='/ngowebsite#aboutUs'> <li onClick={() => {setNavbar('')}}>ABOUT US</li> </Link>
 
                 <Link to="/ourInitiatives" className="linkInitiatives">
