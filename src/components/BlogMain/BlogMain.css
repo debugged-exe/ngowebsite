@@ -8,6 +8,13 @@
     flex-direction: column;
 }
 
+.blog-grid{
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+  }
+  
+ 
+
 .test-category:hover .inner{
     bottom: 40px;
 }
@@ -34,6 +41,22 @@ div.test-category{
     height: 25vh;
     margin: 10px;
  }
+
+ @media (max-width: 768px) {
+    .blog-grid{
+      display: grid;
+      grid-template-columns:50% 50%;
+      text-align: center;
+
+    }
+  }
+  @media (max-width: 426px) {
+    .blog-grid{
+      display: grid;
+      text-align: center;
+      grid-template-columns:100%;
+    }
+  }
 
 @media screen and (min-width: 768px){
     .blog-card{

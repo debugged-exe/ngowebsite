@@ -34,7 +34,7 @@ function Navbar({setInitiative}) {
                 <Link className="list-items" to='/ngowebsite#aboutUs'> <li onClick={() => {setNavbar('')}}>ABOUT US</li> </Link>
 
                 <Link to="/ourInitiatives" className="linkInitiatives">
-                <li className="list-style-none mh2 white menu">OUR INITIATIVES
+                <li className="list-style-none mh2 white tc menu">OUR INITIATIVES
               <ul className="sub-menu black align-left">
               <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("divyang");setNavbar('')}} >Divyang</li></Link>
               <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("educational");setNavbar('')}}>Educational</li></Link>

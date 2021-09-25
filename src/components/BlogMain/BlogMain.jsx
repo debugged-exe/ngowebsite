@@ -137,6 +137,8 @@ function BlogMain({initiative,setCarousel}) {
       <div>
         {
             drive.map((item,index)=>{
+              abc=item.events;
+              abc=abc.sort((a,b)=>b.cnt-a.cnt);
               console.log(item);
               return(
                 <div className="blog-main">
@@ -157,26 +159,27 @@ function BlogMain({initiative,setCarousel}) {
                     Get ready, skanks! It’s time for the truth train! Your guilty consciences may make you vote Democratic, but secretly you all yearn for a Republican president to lower taxes, brutalize criminals, and rule you like a king! What good is money if it can’t inspire terror in your fellow man?
                 </p>
                 
-                <div className='blog-card items-center'>
-                
+                <div className='blog-grid items-center'>
+               
                 {
-                              item.events.map((i,index)=>{
+                  
+                          abc.map((i,index)=>{
+                            console.log(item.events);
                                 if(i.recent==='1'){
-                                  abc= item.events.filter((a)=>a.recent==='0');
-                                  console.log('recentevents',i);
+                                  
                                   return(
 
                               <div >
                                  <Link to ="/eventdisplay" onClick={(e)=>{setCarousel([i]);}}> 
                                   <div className='test-category ' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
                                     <div className='inner'>
-                                    {item.events[0].place}
+                                    {i.place}
                                     
                                     <hr style={{ bottom: '0', width: '40%' }} />
                                    
                                 </div>
                                
-                              <div className='hidden'> {item.events[0].date}</div>
+                              <div className='hidden'> {i.date}</div>
 
                     </div>
                    </Link>
