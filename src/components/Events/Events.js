@@ -193,7 +193,7 @@ function Events({setInitiative}) {
                 
               })
               }
-               {
+               {/* {
               health.map((i,index)=>{
               
                 return(
@@ -312,7 +312,7 @@ function Events({setInitiative}) {
                
                 
               })
-              }
+              } */}
             
               
             

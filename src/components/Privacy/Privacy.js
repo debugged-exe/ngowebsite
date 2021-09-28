@@ -1,9 +1,14 @@
-import React from 'react';
+import React,{useLayoutEffect} from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import Footer from '../Footer/Footer';
 
 
 function Privacy (){
+
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0);
+      })
+
     return (
         <section className={'bg-white pt6 pb4'}>
             <div>

@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{useLayoutEffect} from 'react';
 // import { HashLink as Link } from 'react-router-hash-link';
 import { Link } from 'react-router-dom'
 import Footer from '../Footer/Footer';
 
 
  function TermsAndCondition() {
+
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0);
+      })
+
     return (
         <section className={'bg-white pt6 pb4'}  >
             <div>

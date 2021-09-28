@@ -28,10 +28,10 @@ const HomeBackground=()=>{
         <Carousel itemsToShow={1} style={{ position: 'relative'}} showArrows={false} enableAutoPlay={true} interval={3000}>
   {
         bgimage.map((item,index)=>{
-          console.log('background image',item);
+        
             return(
               <div className='slide bg-image flex flex-column justify-center items-center' style={{background: ` url(${item.bgimg}) `, backgroundSize: 'cover', width: '100vw' }}>
-              <p className="sty f4">THE WAR AGAINST <b>HUNGER</b><br />IS THE WAR OF <b>LIBERATION</b></p>
+              <p className="sty f3"><b>{item.tagline}</b></p>
               <Link to="/" style={{ textDecoration: 'none' }}>
                 <a className="f6 link grow ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
               </Link>
