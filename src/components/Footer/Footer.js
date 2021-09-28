@@ -1,7 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import 'tachyons'
-import { AiOutlineFacebook,AiOutlineInstagram,AiOutlineMail,AiOutlineWhatsApp,AiOutlineCopyrightCircle} from 'react-icons/ai'
+import {AiOutlineInstagram,AiOutlineMail,AiOutlineWhatsApp,AiOutlineCopyrightCircle} from 'react-icons/ai'
+import { FaFacebookF } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -12,14 +13,14 @@ function Footer() {
                </div>
                <div>
                <span>
-                   <Link to='/privacy#privacy'><a className='white no-underline'> Privacy Policy </a></Link>| <Link to='/terms#terms'> <a className='white no-underline'> Terms & Conditions</a> </Link>
+                   <Link className='white no-underline' to='/privacy#privacy'><a > Privacy Policy </a></Link>| <Link className='white no-underline' to='/terms#terms'> <a > Terms & Conditions</a> </Link>
                 </span>
                 </div>
                 <div className='flex pointer justify-between white'>
-                <AiOutlineFacebook className="mr2 f3 dim " />
-                <AiOutlineInstagram className="mr2 f3 dim " />
-                <AiOutlineMail className="mr2 f3 dim " />
-                <AiOutlineWhatsApp className="mr2 f3 dim " />
+                {/* <FaFacebookF className="mr2 f4 dim " />
+                <AiOutlineInstagram className="mr2 f3 dim " /> */}
+                <a style={{outline:'none'}} className="mr2 white f3 dim" href='mailto:gvbsngo@gmail.com?subject=Joining a good cause'><AiOutlineMail /></a>
+                <a style={{outline:'none'}} className="mr2 white f3 dim" href='https://wa.me/9421221103'><AiOutlineWhatsApp /></a>
                 </div>
             </div>
     )

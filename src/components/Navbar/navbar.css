@@ -10,7 +10,6 @@
     z-index: 10;
     width: 100%;
     color: white;
-
     transition-timing-function: ease-in 1.5s;
     transition: all 0.5s;
 }

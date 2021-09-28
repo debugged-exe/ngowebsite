@@ -35,7 +35,7 @@ function Navbar({setInitiative}) {
 
                 <Link to="/ourInitiatives" className="linkInitiatives">
                 <li className="list-style-none mh2 white tc menu">OUR INITIATIVES
-              <ul className="sub-menu black align-left">
+              <ul className="sub-menu black tl">
               <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("divyang");setNavbar('')}} >Divyang</li></Link>
               <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("educational");setNavbar('')}}>Educational</li></Link>
               <Link to="/ourinitiatives" className="linkInitiatives"><li className="sub-menu-item" onClick={() => {setInitiative("environmentcleanliness");setNavbar('')}}>Environment cleanliness</li></Link>
