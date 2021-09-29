@@ -8,13 +8,18 @@ const EventDisplay = ({caro,initiative,setInitiative}) => {
     var abc=[];
   console.log('eventdisplay',caro);
     return(
+      <div className="blog-header mb4"><div className="parallaxx"></div>
       <div className="mt6 tc" id="project">
-            <div >
+           
+            
+            
+            <div>
              
             <Link to="/ourinitiatives" onClick={()=>setInitiative(initiative)} >
             <span className="return"><IoMdArrowRoundBack size="2rem" color="#e88foa" /></span> </Link>
             <h1 className="black">{initiative.toUpperCase()}</h1> 
             </div>
+            
             
             <div className=" mt3">
                 {
@@ -45,7 +50,7 @@ const EventDisplay = ({caro,initiative,setInitiative}) => {
                 }
             </div>
 </div>
-
+</div>
         
     );
 }

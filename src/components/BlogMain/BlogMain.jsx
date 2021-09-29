@@ -15,8 +15,6 @@ function BlogMain({initiative,setCarousel}) {
       window.scrollTo(0,0);
     })
 
-
-
     useEffect(() => {
         if(initiative==="divyang"){
           fetch(" https://gvbufoundation.herokuapp.com/divyang")
