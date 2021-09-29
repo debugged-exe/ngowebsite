@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './news.css'
 import footer1 from './footer1.jpg'
 import footer2 from './footer2.jpg'
@@ -6,7 +6,57 @@ import footer3 from './footer3.jpg'
 import footer4 from './footer4.jpg'
 import { Link } from 'react-router-dom'
 
-const news = () => {
+const News = ({setInitiative}) => {
+
+  const[divyang,setdivyang]=useState([]);
+    const[env,setEnv]=useState([]);
+    const[health,sethealth]=useState([]);
+    const[edu,setEdu]=useState([]);
+
+  useEffect(() => {
+    fetch("https://gvbufoundation.herokuapp.com/divyang")
+        .then(response => response.json())
+        .then(res => {
+          if (res[0].tagline) {
+            setdivyang(res);
+          }
+        }).catch(error => {
+          console.log(error);
+        })
+
+        fetch("https://gvbufoundation.herokuapp.com/environment")
+        .then(response => response.json())
+        .then(res => {
+          if (res[0].tagline) {
+            setEnv(res);
+          }
+        }).catch(error => {
+          console.log(error);
+        })
+
+        fetch("https://gvbufoundation.herokuapp.com/educational")
+        .then(response => response.json())
+        .then(res => {
+          if (res[0].tagline) {
+            setEdu(res);
+          }
+        }).catch(error => {
+          console.log(error);
+        })
+    
+    
+        fetch("https://gvbufoundation.herokuapp.com/health")
+        .then(response => response.json())
+        .then(res => {
+          if (res[0].tagline) {
+            sethealth(res);
+          }
+        }).catch(error => {
+          console.log(error);
+        })
+    
+}, []);
+
   return (
 
     <div className="flex justify-center tl bg-dark-gray white footer-container pv4 lh-copy">
@@ -23,48 +73,78 @@ const news = () => {
       <div className="footer-right" align="left">
         <h4 className="yelloe b">LATEST EVENTS</h4>
         <ul>
-          <Link to='blog'>
-            <li className="flex items-start mb2">
-              <img src={footer1} width="50px"></img>
-              <div className="ml2">
-                <p className="f6 yelloe mv0 b">Parade Charity</p>
-                <span className="f6 white mt0">February 18, 2015</span>
-              </div>
-            </li>
-          </Link>
+          
+           { 
+           divyang.map((item,index)=>{
+             return (
+              <Link to='/ourinitiatives'>
+                <li className="flex items-start mb2" onClick={()=>{setInitiative("divyang");}}>
+                <img src={item.photos[0]} width="50px"></img>
+                <div className="ml2">
+                  <p className="f6 yelloe mv0 b">{item.title}</p>
+                  <span className="f6 white mt0">{item.events[0].date}</span>
+                </div>
+              </li>
+            </Link>
+             );
+           })
+           }
+
+          
           <div className="line"></div>
 
-          <Link to='blog'>
-            <li className="flex items-start mb2">
-              <img src={footer2} width="50px"></img>
-              <div className="ml2">
-                <p className="f6 yelloe mv0 b">Children’s Classic at Sanctuary</p>
-                <span className="f6 white mt0">January 25, 2015</span>
-              </div>
-            </li>
-          </Link>
+          { 
+           edu.map((item,index)=>{
+             return (
+              <Link to='/ourinitiatives'>
+                <li className="flex items-start mb2" onClick={()=>{setInitiative("educational");}}>
+                <img src={item.photos[0]} width="50px"></img>
+                <div className="ml2">
+                  <p className="f6 yelloe mv0 b">{item.title}</p>
+                  <span className="f6 white mt0">{item.events[0].date}</span>
+                </div>
+              </li>
+            </Link>
+             );
+           })
+           }
+          
           <div className="line"></div>
 
-          <Link to='blog'>
-            <li className="flex items-start mb2">
-              <img src={footer3} width="50px"></img>
-              <div className="ml2">
-                <p className="f6 yelloe mv0 b">Climb for Courage</p>
-                <span className="f6 white mt0">December 25, 2014</span>
-              </div>
-            </li>
-          </Link>
+          { 
+           env.map((item,index)=>{
+             return (
+              <Link to='/ourinitiatives'>
+                <li className="flex items-start mb2" onClick={()=>{setInitiative("environmentcleanliness");}}>
+                <img src={item.photos[0]} width="50px"></img>
+                <div className="ml2">
+                  <p className="f6 yelloe mv0 b">{item.title}</p>
+                  <span className="f6 white mt0">{item.events[0].date}</span>
+                </div>
+              </li>
+            </Link>
+             );
+           })
+           }
+          
           <div className="line"></div>
 
-          <Link to='blog'>
-            <li className="flex items-start mb2">
-              <img src={footer4} width="50px" height="50px" ></img>
-              <div className="ml2">
-                <p className="f6 yelloe mv0 b">Children’s Gala</p>
-                <span className="f6 white mt0">November 25, 2014</span>
-              </div>
-            </li>
-          </Link>
+          { 
+           health.map((item,index)=>{
+             return (
+              <Link to='/ourinitiatives'>
+                <li className="flex items-start mb2" onClick={()=>{setInitiative("health");}}>
+                <img src={item.photos[0]} width="50px"></img>
+                <div className="ml2">
+                  <p className="f6 yelloe mv0 b">{item.title}</p>
+                  <span className="f6 white mt0">{item.events[0].date}</span>
+                </div>
+              </li>
+            </Link>
+             );
+           })
+           }
+          
         </ul>
       </div>
 
@@ -72,4 +152,4 @@ const news = () => {
   )
 }
 
-export default news;
+export default News;

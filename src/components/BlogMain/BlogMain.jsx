@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState,useEffect,useLayoutEffect} from 'react';
 import './BlogMain.css';
 import main from './mainimage.jpg';
 import poor1 from '../Events/poor1.jpeg';
@@ -10,7 +10,12 @@ function BlogMain({initiative,setCarousel}) {
 
     const [drive,setDrive]=useState([]);
     var abc=[];
-    const[visible,setVisible]=useState(3);
+    
+    useLayoutEffect(()=>{
+      window.scrollTo(0,0);
+    })
+
+
 
     useEffect(() => {
         if(initiative==="divyang"){
@@ -142,7 +147,7 @@ function BlogMain({initiative,setCarousel}) {
               console.log(item);
               return(
                 <div className="blog-main">
-                <img src={main} />
+                <img src={item.photos[0]} />
                 <h2 className="f2 pt4 tl pb1 mb0">{item.title}</h2>
                 <div className="silver flex pb0 f6 mb0 normal post-deets">  
                 {/* <span><AiOutlineClockCircle className="mr1" /> February 18, 2015 </span>  */}
@@ -165,13 +170,14 @@ function BlogMain({initiative,setCarousel}) {
                   
                           abc.map((i,index)=>{
                             console.log(item.events);
+                          
                                 if(i.recent==='1'){
                                   
                                   return(
 
                               <div >
                                  <Link to ="/eventdisplay" onClick={(e)=>{setCarousel([i]);}}> 
-                                  <div className='test-category ' style={{ backgroundImage: 'url(' + poor1 + ')', backgroundSize: 'cover', position: 'relative' }}>
+                                  <div className='test-category ' style={{ backgroundImage: `url(${i.image[0]})`, backgroundSize: 'cover', position: 'relative' }}>
                                     <div className='inner'>
                                     {i.place}
                                     

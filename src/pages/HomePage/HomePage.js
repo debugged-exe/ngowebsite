@@ -19,7 +19,7 @@ const HomePage = ({setInitiative}) => {
             <Events setInitiative={setInitiative}/>
             <JoinUs />
             <Donate />
-            <News />
+            <News setInitiative={setInitiative}/>
             <Footer />
         </>
     )
