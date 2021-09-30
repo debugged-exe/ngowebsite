@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
-import logo from './charity-white.png';
+import logo from './logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
