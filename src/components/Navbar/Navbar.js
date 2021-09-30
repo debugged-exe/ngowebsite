@@ -25,7 +25,7 @@ function Navbar({setInitiative}) {
             <div className="" style={{ textDecoration: "none" }} title="Home" >
                 <div className="nav-logo">
                     <Link to='/' ><img src={logo} className="" alt="Site Name" /></Link>
-                    <span className=' white b f3 '><i> Charity </i></span><br />
+                    {/* <span className=' white b f3 '><i> Charity </i></span><br /> */}
                 </div>
             </div>
 

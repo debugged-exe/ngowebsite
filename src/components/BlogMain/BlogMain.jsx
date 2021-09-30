@@ -15,6 +15,22 @@ function BlogMain({initiative,setCarousel}) {
       window.scrollTo(0,0);
     })
 
+    const[visible,setVisible]=useState(3);
+    const[hideShowMore,sethideShowMore]=useState('block');
+    const[hideShowLess,sethideShowLess]=useState('none');
+    const showMoreItems = () => {
+      setVisible( visible + 3);
+      sethideShowMore('none');
+      sethideShowLess('block');
+      }
+    const showLessItems =() =>{
+      setVisible(3);
+      sethideShowLess('none');
+      sethideShowMore('block');
+    }
+
+const[showP,setShowPast]=useState(false);
+
     useEffect(() => {
         if(initiative==="divyang"){
           fetch(" https://gvbufoundation.herokuapp.com/divyang")
@@ -24,7 +40,7 @@ function BlogMain({initiative,setCarousel}) {
               setDrive(res);
             }
           }).catch(error => {
-            console.log(error);
+            console.log('divyang wala ',error);
           })
     
         }
@@ -140,9 +156,10 @@ function BlogMain({initiative,setCarousel}) {
       <div>
         {
             drive.map((item,index)=>{
-              abc=item.events;
+              abc=item.events.filter((a)=>a.recent==='1');;
               abc=abc.sort((a,b)=>b.cnt-a.cnt);
               console.log(item);
+              
               return(
                 <div className="blog-main">
                 <img src={item.photos[0]} />
@@ -166,16 +183,15 @@ function BlogMain({initiative,setCarousel}) {
                
                 {
                   
-                          abc.map((i,index)=>{
-                            console.log(item.events);
-                          
+                          abc.slice(0,visible).map((i,index)=>{
+                            console.log('abc ki value',i);
                                 if(i.recent==='1'){
                                   
                                   return(
 
                               <div >
                                  <Link to ="/eventdisplay" onClick={(e)=>{setCarousel([i]);}}> 
-                                  <div className='test-category ' style={{ backgroundImage: `url(${i.image[0]})`, backgroundSize: 'cover', position: 'relative' }}>
+                                  <div className='test-category ' style={{ backgroundImage: `url(${i.img[0]})`, backgroundSize: 'cover', position: 'relative' }}>
                                     <div className='inner'>
                                     {i.place}
                                     
@@ -188,6 +204,7 @@ function BlogMain({initiative,setCarousel}) {
                     </div>
                    </Link>
                 </div>
+                
 
                                   )
                                 }
@@ -196,7 +213,30 @@ function BlogMain({initiative,setCarousel}) {
                             }
 
                             </div>
-                
+                            <div>
+                      {
+                        abc.map((a,index)=>{
+                          if(abc.length<0){
+                            console.log("done",abc.length);
+                            return(
+                           <div></div>
+                            )
+                          }
+                          else if( index===0){
+                            return(
+                              <div className="showButtons mt2 mb2 flex justify-center">
+                                  <div className="mh2 br2 mt2 mb4 ba btn ph3 pv2 pointer" style={{display:`${hideShowMore}`}}
+  onClick={() => showMoreItems()}>Show More</div>
+<div className=" mh2 br2 mt2 mb4 ba btn ph3 pv2 pointer" style={{display:`${hideShowLess}`}}
+ onClick={() => showLessItems()}>Show Less</div>
+                              </div>
+                            )
+                          }
+
+                        })
+                      }
+
+                      </div>
 
 
 

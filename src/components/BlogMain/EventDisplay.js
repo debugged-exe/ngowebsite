@@ -32,7 +32,7 @@ const EventDisplay = ({caro,initiative,setInitiative}) => {
                       <h1>{item.eventheading}</h1>
                       <div className="grid-component">
                         {
-                           item.image.map((it,index)=>{
+                           item.img.map((it,index)=>{
                             console.log('doublemap',it);
                             return(
                               <div className="ma3" key={index}>
