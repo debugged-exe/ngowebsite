@@ -11,9 +11,9 @@ function BlogMain({initiative,setCarousel}) {
     const [drive,setDrive]=useState([]);
     var abc=[];
     
-    useLayoutEffect(()=>{
-      window.scrollTo(0,0);
-    })
+    // useLayoutEffect(()=>{
+    //   window.scrollTo(0,0);
+    // })
 
     const[visible,setVisible]=useState(3);
     const[hideShowMore,sethideShowMore]=useState('block');
@@ -169,13 +169,14 @@ const[showP,setShowPast]=useState(false);
                 {/* <span>< AiOutlineUser className="mh1" /> langan  </span> <span>< BiNews className="mh1" /> News, Uncategorized  </span> <span className="pr0"><FaRegComments className="mh1" />No comments </span> */}
                 </div>
                 <p className="f6">
-                    {item.description[0]}
                     <br/>
+                    {item.description[0]}
+                    <br/><br/>
                     {item.description[1]}
                     <br/><br/>
                     {item.description[2]}
                     </p>
-                
+                    <h4>RECENT EVENTS</h4>
                 <div className='blog-grid items-center'>
                
                 {
