@@ -169,15 +169,12 @@ const[showP,setShowPast]=useState(false);
                 {/* <span>< AiOutlineUser className="mh1" /> langan  </span> <span>< BiNews className="mh1" /> News, Uncategorized  </span> <span className="pr0"><FaRegComments className="mh1" />No comments </span> */}
                 </div>
                 <p className="f6">
-                    <br />
-                    {item.description}
-                    <br /><br />
-                    They only come out in the night. Or in this case, the day. The Internet King? I wonder if he could provide faster nudity… Oh, loneliness and cheeseburgers are a dangerous mix. A woman is a lot like a refrigerator. Six feet tall, 300 pounds…it makes ice. Weaseling out of things is important to learn. It’s what separates us from the animals…except the weasel.
-                    <br /><br />
-                    But, Aquaman, you cannot marry a woman without gills. You’re from two different worlds… Oh, I’ve wasted my life. Your guilty consciences may make you vote Democratic, but secretly you all yearn for a Republican president to lower taxes, brutalize criminals, and rule you like a king! Oh, everything looks bad if you remember it. I’m a Spalding Gray in a Rick Dees world.
-                    <br /><br />
-                    Get ready, skanks! It’s time for the truth train! Your guilty consciences may make you vote Democratic, but secretly you all yearn for a Republican president to lower taxes, brutalize criminals, and rule you like a king! What good is money if it can’t inspire terror in your fellow man?
-                </p>
+                    {item.description[0]}
+                    <br/>
+                    {item.description[1]}
+                    <br/><br/>
+                    {item.description[2]}
+                    </p>
                 
                 <div className='blog-grid items-center'>
                
