@@ -62,14 +62,13 @@ const News = ({setInitiative}) => {
     <div className="flex justify-center tl bg-dark-gray white footer-container pv4 lh-copy">
 
       <div className="w-40 mr6">
-        <h4 className="yelloe b">ABOUT CHARITY</h4>
-        <p className="f6">We’re an international development organisation with our head office based in Greece.
-          We also have offices right across Asia, the <span className="yelloe">Americas</span> and Europe. We believe the people whose lives our work affects should decide how we’re run.
+        <h4 className="yelloe b">ABOUT GVBU</h4>
+        <p className="f5">We as an NGO contribute towards the betterment of our country by helping the people around us and by trying to provide various amenities to our fellow citizens<br/> who do not have the facility to acquire these amenities or are facing some kind of difficulties while trying to do so.
           <br />
           <br />
-          You can help us make a fairer, better world – wherever you are. Your voice can persuade world leaders to change policies.</p>
+         </p>
       </div>
-
+{/* 
       <div className="footer-right" align="left">
         <h4 className="yelloe b">LATEST EVENTS</h4>
         <ul>
@@ -146,7 +145,7 @@ const News = ({setInitiative}) => {
            }
           
         </ul>
-      </div>
+      </div> */}
 
     </div>
   )

@@ -30,10 +30,10 @@ const HomeBackground=()=>{
         bgimage.map((item,index)=>{
         
             return(
-              <div className='slide bg-image flex flex-column justify-center items-center' style={{background: ` url(${item.bgimg}) `, backgroundSize: 'cover', width: '100vw' }}>
-              <p className="sty f3"><b>{item.tagline}</b></p>
-              <Link to="/" style={{ textDecoration: 'none' }}>
-                <a className="f6 link grow ba ph3 pv2 mb2 dib white w-100" href="#0"><i>DONATE</i></a>
+              <div className='slide bg-image flex flex-column justify-center items-center' style={{background: ` rgba(0,0,0,0.4) url(${item.bgimg}) no-repeat center center/cover `, backgroundSize: 'cover', width: '100vw'}}>
+              <p className="home-tagline f2 b"  style={{color:"#e88f0a"}}>{item.tagline}</p>
+              <Link to="/donatepage" >
+                <a className="f5 link br2 grow ph3 pv2 mh2 dib white bg-yelloe" >DONATE</a>
               </Link>
             </div>
             );

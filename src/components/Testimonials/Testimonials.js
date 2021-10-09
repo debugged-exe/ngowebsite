@@ -25,7 +25,7 @@ function Testimonials() {
         <div className="home-div">
             <section className='parallax' >
                 <div className='parallax-inner flex flex-column justify-center pt4 items-center'>
-                    <h2 className="f2 pt4">TESTIMONIALS</h2>
+                    <h2 className="f2 pt4">QUOTES</h2>
                     <div className="line tc bg-white"></div>
                     <Carousel itemsToShow={1} interval={3000}  >
 {
@@ -34,7 +34,7 @@ function Testimonials() {
                     return(
                         <div className='flex flex-column justify-center tc items-center white outer'>  
                         <h3 className='pa6-ns'>
-                            <ImQuotesLeft size="2.5rem" color="white" />
+                            {/* <ImQuotesLeft size="2.5rem" color="white" /> */}
                             <i>{item.test}</i>
                         </h3>
                         <br /><br />

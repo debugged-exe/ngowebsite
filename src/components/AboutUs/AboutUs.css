@@ -6,11 +6,11 @@
 }
 
 .about-line{
-  width: 35%;
+  width: 55%;
   margin: 0 auto;
   margin-top: 1.5rem;
   line-height: 1.7rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .grid-container{

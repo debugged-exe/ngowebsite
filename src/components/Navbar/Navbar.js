@@ -51,7 +51,7 @@ function Navbar({setInitiative}) {
 
                 {/* <Link className="list-items" to="/blog"> <li>BLOG</li> </Link> */}
                 <Link className="list-items" to="/ngowebsite#joinUs"> <li onClick={() => {setNavbar('')}}>JOIN US</li> </Link>
-                <Link className="f6 link br2 grow ph3 pv2 mh2 dib white bg-yelloe" href="#0"><li><b>DONATE</b></li></Link>
+                <Link to="/donatepage" className="f6 link br2 grow ph3 pv2 mh2 dib white bg-yelloe" ><li><b>DONATE</b></li></Link>
             </ul>
 
             <GiHamburgerMenu style={{ display: `${navbar === 'block' ? 'none' : ''}`, position: 'fixed', top: '50px', right: '50px' }} className='hide-ham' onClick={() => setNavbar('block')} size='1.8rem' />

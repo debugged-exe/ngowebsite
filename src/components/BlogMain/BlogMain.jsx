@@ -97,33 +97,6 @@ const[showP,setShowPast]=useState(false);
     
         }
     
-        else if (initiative==="natureinitiatives") {
-          fetch(" https://gvbufoundation.herokuapp.com/nature")
-          .then(response => response.json())
-          .then(res => {
-            if (res[0].title) {
-              setDrive(res);
-            }
-          }).catch(error => {
-            console.log(error);
-          })
-    
-        }
-    
-        else if (initiative==="prashikshan") {
-          fetch(" https://gvbufoundation.herokuapp.com/prashikshan")
-          .then(response => response.json())
-          .then(res => {
-            if (res[0].title) {
-              setDrive(res);
-            }
-          }).catch(error => {
-            console.log(error);
-          })
-    
-        }
-    
-    
         else if (initiative==="socialinitiative") {
           fetch(" https://gvbufoundation.herokuapp.com/social")
           .then(response => response.json())
@@ -176,8 +149,8 @@ const[showP,setShowPast]=useState(false);
                     <br/><br/>
                     {item.description[2]}
                     </p>
-                    <h4>RECENT EVENTS</h4>
-                <div className='blog-grid items-center'>
+                    {/* <h4>RECENT EVENTS</h4> */}
+                {/* <div className='blog-grid items-center'>
                
                 {
                   
@@ -210,9 +183,9 @@ const[showP,setShowPast]=useState(false);
                               })
                             }
 
-                            </div>
+                            </div> */}
                             <div>
-                      {
+                      {/* {
                         abc.map((a,index)=>{
                           if(abc.length<0){
                             console.log("done",abc.length);
@@ -232,7 +205,7 @@ const[showP,setShowPast]=useState(false);
                           }
 
                         })
-                      }
+                      } */}
 
                       </div>
 

@@ -2,6 +2,8 @@ body{
 	overflow-x: hidden;
 }
 
+
+
 .donate1
 {
 	background: none;
@@ -21,6 +23,7 @@ body{
   color: white;
   padding: 50px 0 50px;
   margin-left: auto;
+  
   margin-right: auto;
   text-align: center;
   width: 100%;
@@ -33,14 +36,13 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	filter: grayscale();
 	background-blend-mode: darken;
 	background-position: center top;
 	
   }
 
   @media screen and (max-width:425px) {
-		.sty{
+		.home-tagline{
            font-size: 1rem;
 		   
 		   
@@ -50,7 +52,7 @@ body{
 		}
   }
   @media screen and (min-width:425px) and (max-width:768px) {
-	  .sty{
+	  .home-tagline{
 		 
 		  font-size: 1.2rem;
 		  float: initial;

@@ -16,6 +16,7 @@ import { Route, Switch, HashRouter } from 'react-router-dom';
 import Privacy from '../Privacy/Privacy';
 import TermsAndCondition from '../TermsAndCondition/TermsAndCondition';
 import EventDisplay  from '../BlogMain/EventDisplay';
+import DonatePage from '../DonatePage/DonatePage';
 import { BsArrowUp } from 'react-icons/bs'
 
 function App(){
@@ -40,6 +41,7 @@ function App(){
                         <Route exact path='/Testimonials' component={Testimonials} />
                         <Route exact path='/eventdisplay' component={()=><EventDisplay caro={caro} initiative={initiative} setInitiative={setInitiative}/> }/>
                         <Route exact path='/Events' component={Events} />
+                        <Route exact path='/donatepage' component={DonatePage} />
                         <Route exact path='/joinUs' component={JoinUs} />
                         <Route exact path='/Donate' component={Donate} />
                         <Route exact path='/privacy' component={Privacy} />

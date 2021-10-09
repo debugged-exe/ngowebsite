@@ -16,9 +16,10 @@ const HomePage = ({setInitiative}) => {
             <AboutUs />
             <OurGoals />
             <Testimonials />
-            <Events setInitiative={setInitiative}/>
-            <JoinUs />
             <Donate />
+            {/* <Events setInitiative={setInitiative}/> */}
+            <JoinUs />
+            
             <News setInitiative={setInitiative}/>
             <Footer />
         </>

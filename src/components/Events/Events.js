@@ -37,25 +37,6 @@ function Events({setInitiative}) {
           console.log(error);
         })
 
-        fetch("https://gvbufoundation.herokuapp.com/nature")
-        .then(response => response.json())
-        .then(res => {
-          if (res[0].tagline) {
-            setNature(res);
-          }
-        }).catch(error => {
-          console.log(error);
-        })
-    
-        fetch("https://gvbufoundation.herokuapp.com/health")
-        .then(response => response.json())
-        .then(res => {
-          if (res[0].tagline) {
-            sethealth(res);
-          }
-        }).catch(error => {
-          console.log(error);
-        })
     
     
     
@@ -70,54 +51,6 @@ function Events({setInitiative}) {
         })
     
     
-    
-       
-      
-        fetch("https://gvbufoundation.herokuapp.com/livelihood")
-        .then(response => response.json())
-        .then(res => {
-          if (res[0].tagline) {
-            setLive(res);
-          }
-        }).catch(error => {
-          console.log(error);
-        })
-
-     
-
-
-        fetch("https://gvbufoundation.herokuapp.com/prashikshan")
-        .then(response => response.json())
-        .then(res => {
-          console.log('prashikshan data from fetch',res)
-          if (res[0].tagline) {
-            setPrashik(res);
-          }
-        }).catch(error => {
-          console.log(error);
-        })
-
-
-        fetch("https://gvbufoundation.herokuapp.com/social")
-        .then(response => response.json())
-        .then(res => {
-          if (res[0].tagline) {
-            setSocial(res);
-          }
-        }).catch(error => {
-          console.log(error);
-        })
-
-
-        fetch("https://gvbufoundation.herokuapp.com/teenage")
-        .then(response => response.json())
-        .then(res => {
-          if (res[0].tagline) {
-            setTeen(res);
-          }
-        }).catch(error => {
-          console.log(error);
-        })
     
       }, [])
     
@@ -173,47 +106,7 @@ function Events({setInitiative}) {
                 
               })
               }
-               {
-              nature.map((i,index)=>{
-               
-                return(
-                  <Link to="/ourinitiatives"  >
-                    <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
-
-                      <div className='inner'   >
-                          <hr style={{ bottom: '0', width: '80%' }} />
-                      </div>
-                      <div className='hidden'>{i.title}</div>
-                  </div>
-                </Link>
-                  
-                );
-               
-                
-              })
-              }
-               {/* {
-              health.map((i,index)=>{
-              
-                return(
-                  <Link to="/ourinitiatives"  >
-                    <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
-
-                      <div className='inner'   >
-                          <hr style={{ bottom: '0', width: '80%' }} />
-                      </div>
-                      <div className='hidden'>{i.title}</div>
-                  </div>
-                </Link>
-                  
-                );
-               
-                
-              })
-              }
-               {
+              {
               edu.map((i,index)=>{
                
                 return(
@@ -232,92 +125,7 @@ function Events({setInitiative}) {
                
                 
               })
-              }
-               {
-              live.map((i,index)=>{
-                
-                return(
-                  <Link to="/ourinitiatives"  >
-                    <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
-
-                      <div className='inner'   >
-                          <hr style={{ bottom: '0', width: '80%' }} />
-                      </div>
-                      <div className='hidden'>{i.title}</div>
-                  </div>
-                </Link>
-                  
-                );
-               
-                
-              })
-              }
-              {
-              prashik.map((i,index)=>{
-               console.log('prashikshan data',i.tagline);
-                return(
-                  <Link to="/ourinitiatives"  >
-                    <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
-
-                      <div className='inner'   >
-                          <hr style={{ bottom: '0', width: '80%' }} />
-                      </div>
-                      <div className='hidden'>{i.title}</div>
-                  </div>
-                </Link>
-                  
-                );
-               
-                
-              })
-              }
-               {
-              social.map((i,index)=>{
-               
-                return(
-                  <Link to="/ourinitiatives"  >
-                    <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
-
-                      <div className='inner'   >
-                          <hr style={{ bottom: '0', width: '80%' }} />
-                      </div>
-                      <div className='hidden'>{i.title}</div>
-                  </div>
-                </Link>
-                  
-                );
-               
-                
-              })
-              }
-               {
-              teen.map((i,index)=>{
-               
-                return(
-                  <Link to="/ourinitiatives"  >
-                    <div className='category' onClick={() =>{setInitiative(i.tagline);}} 
-                    style={{ background:`rgba(0, 0, 0, .4) url(${i.photos[0]}) no-repeat center center`, backgroundSize: 'cover',backgroundBlendMode:'darken', position: 'relative' }}>
-
-                      <div className='inner'   >
-                          <hr style={{ bottom: '0', width: '80%' }} />
-                      </div>
-                      <div className='hidden'>{i.title}</div>
-                  </div>
-                </Link>
-                  
-                );
-               
-                
-              })
-              } */}
-            
-              
-            
-                
-               
+              }  
             </div>
             
             

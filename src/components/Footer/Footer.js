@@ -17,8 +17,8 @@ function Footer() {
                 </span>
                 </div>
                 <div className='flex pointer justify-between white'>
-                {/* <FaFacebookF className="mr2 f4 dim " />
-                <AiOutlineInstagram className="mr2 f3 dim " /> */}
+                <a href="https://www.facebook.com/100001787390010/posts/4346794352056768/?sfnsn=wiwspwa" className="mr2 f4 dim white">< FaFacebookF   /></a>
+                {/* <AiOutlineInstagram className="mr2 f3 dim " /> */}
                 <a style={{outline:'none'}} className="mr2 white f3 dim" href='mailto:gvbsngo@gmail.com?subject=Joining a good cause'><AiOutlineMail /></a>
                 <a style={{outline:'none'}} className="mr2 white f3 dim" href='https://wa.me/9421221103'><AiOutlineWhatsApp /></a>
                 </div>
