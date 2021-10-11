@@ -11,6 +11,8 @@ import Footer from '../Footer/Footer';
       })
 
     return (
+      <div className="blog-header mb4">
+        <div className="parallaxx"></div>
         <section className={'bg-white pt6 pb4'}  >
             <div>
                 <h1 className="tc" id='terms'>
@@ -22,11 +24,11 @@ IMPORTANT INFORMATION REGARDING YOUR LEGAL RIGHTS AND REMEDIES.</h4>
                 <div className={'center w-80 tl lh-copy'}><br/>
                     <h3>1.OverView</h3>
                     <p>This Terms of Service Agreement ("Agreement") is entered into by and between GVBU Foundation, registered
-address HNO. 163 Ambika Vihar near PHC Gole Gujral Jammu, India ("Company") and you, and is made
-effective as of the date of your use of this website GVBUFoundation.org ("Site") or the date of electronic
+address Laxmi Narayan Apartment,Flat No. 5,Miraj-Sangli road,Vasant Colony,Miraj. Dist. Sangli. Maharashtra-416410 ("Company") and you, and is made
+effective as of the date of your use of this website gvbu.org ("Site") or the date of electronic
 acceptance.
 </p>
-                    <p>This Agreement sets forth the general terms and conditions of your use of the GVBUFoundation.org as
+                    <p>This Agreement sets forth the general terms and conditions of your use of the gvbu.org as
 well as the products and/or services purchased or accessed through this Site (the "Services").Whether you are
 simply browsing or using this Site or purchase Services, your use of this Site and your electronic acceptance of
 this Agreement signifies that you have read, understand, acknowledge and agree to be bound by this Agreement
@@ -259,9 +261,9 @@ enforceable to the fullest extent permitted by law.
 <p>If you have any questions about this Agreement, please contact us by email or regular mail at the following
 address:<br/>
 GVBU Website<br/>
-HNO. 163 Ambika Vihar near PHC Gole Gujral Jammu<br/>
+Laxmi Narayan Apartment,Flat No. 5,Miraj-Sangli road,Vasant Colony,Miraj. Dist. Sangli. Maharashtra-416410<br/>
 India<br/>
-foundationGVBU@gmail.com
+gvbsngo@gmail.com
 </p>
 
 
@@ -269,6 +271,7 @@ foundationGVBU@gmail.com
                 </div>
                 <Footer/>
                 </section>
+                </div>
               );
             }
   export default TermsAndCondition;

@@ -10,7 +10,9 @@ function Privacy (){
       })
 
     return (
-        <section className={'bg-white pt6 pb4'}>
+            <div className="blog-header mb4">
+            <div className="parallaxx"></div>
+            <section className={'bg-white pt6 pb4'}>
             <div>
                 <h1 className="tc" id='privacy'>
                     Privacy Policy
@@ -18,14 +20,14 @@ function Privacy (){
                 <div className={'center w-80 tl lh-copy'}>
 
                     <p>Your privacy is important to us, so GVBU Foundation, a India, has created the following Privacy Policy
-("Policy") to let you know what information we collect when you visit our Site GVBUFoundation.org
+("Policy") to let you know what information we collect when you visit our Site gvbu.org
 ("Site"), why we collect it and how we use it.</p><br/>
                     <p>The terms "You," "Your," "Yours" and "User" refer to the entity/person/organization using our Site.</p><br/>
                     <p>When this Policy mentions "We", "Us," and "Our" it refers to GVBU Foundation and its subsidiaries and
 affiliates.</p><br/>
 <p>This Privacy Policy is governed by our <a href="/terms#terms"> Terms of Services.</a></p><br/>
 <p>For any questions regarding this Policy or any requests regarding the processing of personal data, please contact
-us at "GVBUFoundation.org"
+us at "gvbu.org"
 </p>
                 </div>
             </div>
@@ -80,7 +82,7 @@ us at "GVBUFoundation.org"
       </p>
 
       <p>If you wish to withdraw the consent for direct marketing, and refuse to receive information from us, you may
-      exercise such option at any time you wish by sending an email to team.foundationGVBU@gmail.com.</p><br/>
+      exercise such option at any time you wish by sending an email to gvbsngo@gmail.com.</p><br/>
 
       <h3>4. COOKIES</h3>
 
@@ -131,7 +133,7 @@ us at "GVBUFoundation.org"
       <p>We therefore encourage you to avoid providing us or anyone with any sensitive information of which you
       believe its disclosure could cause you substantial or irreparable harm.</p>
       <p>If you have any questions regarding the security of our Site or Services, you are welcome to contact us at
-      foundationGVBU@gmail.com.</p><br/>
+      gvbsngo@gmail.com.</p><br/>
 
       <h3>10. YOUR RIGHTS</h3>
 
@@ -176,6 +178,7 @@ us at "GVBUFoundation.org"
                 </div>
                 <Footer/>
                 </section>
+                </div>
               );
             }
   export default Privacy;
